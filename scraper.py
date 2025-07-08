@@ -10,7 +10,6 @@ import time
 import os
 import traceback
 import datetime
-import pytz  # 用于时区处理
 
 # 卡池类型分类规则
 def get_pool_type(title):
@@ -164,11 +163,11 @@ if __name__ == "__main__":
     # 执行爬取
     results = get_dynamic_cards()
     
-    # 获取当前时间并转换为东八区时间
+    # 获取当前时间并转换为东八区时间（UTC+8）
+    # 不使用pytz，使用标准库处理
     utc_now = datetime.datetime.utcnow()
-    beijing_tz = pytz.timezone('Asia/Shanghai')
-    beijing_time = utc_now.replace(tzinfo=datetime.timezone.utc).astimezone(beijing_tz)
-    crawl_time = beijing_time.isoformat()
+    beijing_time = utc_now + datetime.timedelta(hours=8)
+    crawl_time = beijing_time.isoformat(timespec='seconds') + "+08:00"
     
     # 构建输出数据（包含顶层时间戳）
     output_data = {
@@ -177,7 +176,7 @@ if __name__ == "__main__":
     }
     
     # 保存结果
-    output_file = "data/game_pools.json"
+    output_file = "data/game_cards.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     
