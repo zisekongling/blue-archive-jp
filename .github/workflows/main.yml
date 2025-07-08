@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: true  # 启用推送权限
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -20,14 +23,16 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
+        sudo apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 \
+        libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+        libxrandr2 libgbm1 libasound2t64  # 使用 libasound2t64 替代 libasound2
 
     - name: Install Python packages
       run: pip install -r requirements.txt
 
     - name: Install Microsoft Edge
       run: |
-        curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+        curl -sSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
         sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
         sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
         sudo apt update
@@ -41,5 +46,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add game_cards.json
-        git commit -m "Update game cards data"
+        git diff-index --quiet HEAD || git commit -m "Update game cards data"
         git push
