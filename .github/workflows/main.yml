@@ -7,6 +7,7 @@ on:
   push:
     paths-ignore:
       - 'data/game_cards.json'  # 忽略数据文件本身的更改
+      - 'data/action_cards.json'  # 新增：忽略第二个数据文件
 
 jobs:
   update:
@@ -33,8 +34,12 @@ jobs:
     - name: Install Python packages
       run: pip install -r requirements.txt
         
-    - name: Run data scraper
-      run: python scraper.py
+    - name: Run game cards scraper
+      run: python scraper.py  # 第一个爬虫
+      
+    # 新增步骤：运行第二个爬虫
+    - name: Run activity cards scraper
+      run: python activity.py  # 第二个爬虫
       
     - name: Commit and push changes
       uses: actions/github-script@v6
@@ -46,8 +51,8 @@ jobs:
           execSync('git config --global user.name "GitHub Actions"');
           execSync('git config --global user.email "actions@users.noreply.github.com"');
           
-          // 添加更改的文件
-          execSync('git add data/game_cards.json');
+          // 添加更改的文件 (同时添加两个数据文件)
+          execSync('git add data/game_cards.json data/action_cards.json');
           
           // 检查是否有更改
           const status = execSync('git status --porcelain').toString().trim();
@@ -57,7 +62,7 @@ jobs:
           }
           
           // 提交更改
-          const commitMessage = `自动更新游戏卡片数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
+          const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
           execSync(`git commit -m "${commitMessage}"`);
           
           // 强制推送到 GitHub
@@ -76,10 +81,9 @@ jobs:
             console.log('重新推送成功');
           }
 
-    # 修复点 1：对齐缩进 (关键修复)
     - name: Push to Gitee Mirror
       env:
-        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 修复点 2：移除多余括号
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         GITEE_USERNAME: zisekongling
         GITEE_REPO: blue_archive
       run: |
