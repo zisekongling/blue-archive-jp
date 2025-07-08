@@ -4,489 +4,99 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_2400/h_1050/829/43637/2025/6/7/755849.jpg",
     "status": "进行中",
-    "progress": "还剩下27天11小时"
-  },
-  {
-    "title": "制约解除决战 – 赛特的愤怒(特殊装甲)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/145462.jpg",
-    "status": "未开始",
-    "progress": "2025/07/09-2025/08/04"
+    "progress": "还剩下27天10小时",
+    "type": [
+      "签到"
+    ]
   },
   {
     "title": "[活动] Code:BOX 逼近千年的黑影～一个问题与两个答案～",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/739947.jpg",
     "status": "进行中",
-    "progress": "还剩下13天11小时"
-  },
-  {
-    "title": "任务(Hard)3倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/96733.jpg",
-    "status": "未开始",
-    "progress": "2025/07/18-2025/07/21"
-  },
-  {
-    "title": "总力战 – 葛夫拉(野战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/7/771063.jpg",
-    "status": "未开始",
-    "progress": "2025/07/15-2025/07/21"
-  },
-  {
-    "title": "帐号经验值2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/631158.png",
-    "status": "未开始",
-    "progress": "2025/07/18-2025/07/20"
-  },
-  {
-    "title": "任务(Normal)3倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/303708.jpg",
-    "status": "未开始",
-    "progress": "2025/07/14-2025/07/18"
+    "progress": "还剩下13天10小时",
+    "type": [
+      "活动"
+    ]
   },
   {
     "title": "免费招募100次活动",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/687089.jpg",
     "status": "进行中",
-    "progress": "还剩下6天11小时"
+    "progress": "还剩下6天10小时",
+    "type": [
+      "庆典"
+    ]
   },
   {
     "title": "课程表3倍",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/798138.png",
     "status": "进行中",
-    "progress": "还剩下6天4小时"
+    "progress": "还剩下6天3小时",
+    "type": [
+      "资源翻倍"
+    ]
   },
   {
     "title": "悬赏通缉3倍",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/720572.png",
     "status": "进行中",
-    "progress": "还剩下6天4小时"
-  },
-  {
-    "title": "帐号经验值2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/340330.png",
-    "status": "未开始",
-    "progress": "2025/07/11-2025/07/13"
+    "progress": "还剩下6天3小时",
+    "type": [
+      "资源翻倍"
+    ]
   },
   {
     "title": "[迷你活动] 夏莱总结算with联邦学生会",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/641875.jpg",
     "status": "已结束",
-    "progress": "2025/06/24-2025/07/08"
+    "progress": "2025/06/24-2025/07/08",
+    "type": [
+      "长草活动"
+    ]
   },
   {
     "title": "大决战 – KAITEN FX Mk.0 (城镇战)",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/840139.jpg",
     "status": "已结束",
-    "progress": "2025/07/01-2025/07/07"
+    "progress": "2025/07/01-2025/07/07",
+    "type": [
+      "大决战"
+    ]
   },
   {
     "title": "任务(Hard)奖励2倍",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/5/24/461862.jpg",
     "status": "已结束",
-    "progress": "2025/06/30-2025/07/07"
+    "progress": "2025/06/30-2025/07/07",
+    "type": [
+      "资源翻倍"
+    ]
   },
   {
     "title": "学园交流会奖励2倍",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/43157.jpg",
     "status": "已结束",
-    "progress": "2025/06/30-2025/07/07"
+    "progress": "2025/06/30-2025/07/07",
+    "type": [
+      "资源翻倍"
+    ]
   },
   {
     "title": "制约解除决战 – 霍刻玛(重装甲)",
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/5/9/866067.jpg",
     "status": "已结束",
-    "progress": "2025/06/11-2025/07/07"
-  },
-  {
-    "title": "综合战术考试(射击考试)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/912537.jpg",
-    "status": "已结束",
-    "progress": "2025/06/24-2025/06/30"
-  },
-  {
-    "title": "任务(Normal)奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/5/24/847338.jpg",
-    "status": "已结束",
-    "progress": "2025/06/23-2025/06/30"
-  },
-  {
-    "title": "课程表奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/888860.png",
-    "status": "已结束",
-    "progress": "2025/06/23-2025/06/30"
-  },
-  {
-    "title": "[活动]祕密的午夜派对 ～钟响时刻的捉迷藏～",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/5/9/768815.jpg",
-    "status": "已结束",
-    "progress": "2025/06/10-2025/06/24"
-  },
-  {
-    "title": "总力战 – 气垫船(野战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/9/474607.jpg",
-    "status": "已结束",
-    "progress": "2025/06/17-2025/06/23"
-  },
-  {
-    "title": "特殊任务2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/9/860547.jpg",
-    "status": "已结束",
-    "progress": "2025/06/16-2025/06/23"
-  },
-  {
-    "title": "帐号经验值2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/9/219854.jpg",
-    "status": "已结束",
-    "progress": "2025/06/20-2025/06/22"
-  },
-  {
-    "title": "悬赏通缉2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/9/237153.jpg",
-    "status": "已结束",
-    "progress": "2025/06/09-2025/06/16"
-  },
-  {
-    "title": "帐号经验值2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/9/553756.jpg",
-    "status": "已结束",
-    "progress": "2025/06/13-2025/06/15"
-  },
-  {
-    "title": "[迷你活动] 夏莱总结算with联邦学生会",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/26/983961.png",
-    "status": "已结束",
-    "progress": "2025/05/27-2025/06/10"
-  },
-  {
-    "title": "任务(Normal)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/4/26/354573.jpg",
-    "status": "已结束",
-    "progress": "2025/06/02-2025/06/09"
-  },
-  {
-    "title": "特殊任务2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/26/589802.png",
-    "status": "已结束",
-    "progress": "2025/06/02-2025/06/09"
-  },
-  {
-    "title": "大决战 – 薇娜(城镇战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_397/829/43637/2025/4/26/891573.png",
-    "status": "已结束",
-    "progress": "2025/06/02-2025/06/09"
-  },
-  {
-    "title": "制约解除决战 – 赛特的愤怒(轻装甲)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/4/12/425237.png",
-    "status": "已结束",
-    "progress": "2025/05/14-2025/06/09"
-  },
-  {
-    "title": "[活动] Trip-Trap-Train -复刻-",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_440/829/43637/2025/4/26/725972.png",
-    "status": "已结束",
-    "progress": "2025/05/27-2025/06/03"
-  },
-  {
-    "title": "综合战术考试(突破考试)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/26/497000.png",
-    "status": "已结束",
-    "progress": "2025/05/27-2025/06/02"
-  },
-  {
-    "title": "学园交流会2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/26/257421.png",
-    "status": "已结束",
-    "progress": "2025/05/26-2025/06/02"
-  },
-  {
-    "title": "悬赏通缉2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/26/970546.png",
-    "status": "已结束",
-    "progress": "2025/05/26-2025/06/02"
-  },
-  {
-    "title": "[活动] 向阳前行 她们的小夜曲(复刻)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_440/829/43637/2025/4/12/230169.png",
-    "status": "已结束",
-    "progress": "2025/05/13-2025/05/27"
-  },
-  {
-    "title": "总力战 – 耶罗尼姆斯(城镇战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_438/829/43637/2025/4/12/491421.jpg",
-    "status": "已结束",
-    "progress": "2025/05/20-2025/05/26"
-  },
-  {
-    "title": "任务(Hard)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/4/12/319344.jpg",
-    "status": "已结束",
-    "progress": "2025/05/19-2025/05/26"
-  },
-  {
-    "title": "悬赏通缉2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/4/12/540740.jpg",
-    "status": "已结束",
-    "progress": "2025/05/12-2025/05/19"
-  },
-  {
-    "title": "[迷你活动]特殊调查生命之树",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_440/829/43637/2025/3/28/291723.png",
-    "status": "已结束",
-    "progress": "2025/04/29-2025/05/13"
-  },
-  {
-    "title": "大决战 – 赫赛德(野战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/3/28/601352.jpg",
-    "status": "已结束",
-    "progress": "2025/05/06-2025/05/12"
-  },
-  {
-    "title": "任务(Hard)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/3/28/427799.jpg",
-    "status": "已结束",
-    "progress": "2025/05/05-2025/05/12"
-  },
-  {
-    "title": "学园交流会2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/28/3668.jpg",
-    "status": "已结束",
-    "progress": "2025/05/05-2025/05/12"
-  },
-  {
-    "title": "制约解除决战 – 霍刻玛(特殊装甲)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1268/h_714/829/43637/2025/3/15/54784.png",
-    "status": "已结束",
-    "progress": "2025/04/16-2025/05/12"
-  },
-  {
-    "title": "综合战术考试(护卫考试)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/28/718157.png",
-    "status": "已结束",
-    "progress": "2025/04/29-2025/05/05"
-  },
-  {
-    "title": "任务(Normal)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/3/28/605390.jpg",
-    "status": "已结束",
-    "progress": "2025/04/28-2025/05/05"
-  },
-  {
-    "title": "[活动]Serenade Promenade",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_798/h_426/829/43637/2025/3/15/759767.png",
-    "status": "已结束",
-    "progress": "2025/04/15-2025/04/29"
-  },
-  {
-    "title": "总力战 – 葛利果(室内战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/15/361313.png",
-    "status": "已结束",
-    "progress": "2025/04/22-2025/04/28"
-  },
-  {
-    "title": "特殊任务2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/15/325828.png",
-    "status": "已结束",
-    "progress": "2025/04/21-2025/04/28"
-  },
-  {
-    "title": "课程表2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/15/295051.png",
-    "status": "已结束",
-    "progress": "2025/04/21-2025/04/28"
-  },
-  {
-    "title": "悬赏通缉2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/3/15/241912.png",
-    "status": "已结束",
-    "progress": "2025/04/14-2025/04/21"
-  },
-  {
-    "title": "大决战 – 猫鬼黑影(城镇战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_764/h_370/829/43637/2025/2/31/259220.png",
-    "status": "已结束",
-    "progress": "2025/04/08-2025/04/21"
-  },
-  {
-    "title": "[迷你活动] 夏莱总结算with联邦学生会",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_745/h_279/829/43637/2025/2/31/696029.png",
-    "status": "已结束",
-    "progress": "2025/04/01-2025/04/15"
-  },
-  {
-    "title": "任务(Normal)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_754/h_356/829/43637/2025/2/31/98589.png",
-    "status": "已结束",
-    "progress": "2025/04/07-2025/04/14"
-  },
-  {
-    "title": "学园交流会2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_746/h_325/829/43637/2025/2/31/224113.png",
-    "status": "已结束",
-    "progress": "2025/04/07-2025/04/14"
-  },
-  {
-    "title": "制约解除决战 – 赛特的愤怒(特殊装甲)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_769/h_299/829/43637/2025/2/18/71243.png",
-    "status": "已结束",
-    "progress": "2025/03/19-2025/04/14"
-  },
-  {
-    "title": "综合战术考试(防御考试)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_785/h_362/829/43637/2025/2/31/986539.png",
-    "status": "已结束",
-    "progress": "2025/04/01-2025/04/07"
-  },
-  {
-    "title": "任务(Hard)2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_760/h_336/829/43637/2025/2/31/276503.png",
-    "status": "已结束",
-    "progress": "2025/03/31-2025/04/07"
-  },
-  {
-    "title": "[活动] 五尘降临",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_773/h_310/829/43637/2025/2/18/530886.png",
-    "status": "已结束",
-    "progress": "2025/03/18-2025/04/01"
-  },
-  {
-    "title": "总力战 – KAITEN FX Mk.0 (城镇战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_770/h_309/829/43637/2025/2/18/619147.png",
-    "status": "已结束",
-    "progress": "2025/03/25-2025/03/31"
-  },
-  {
-    "title": "特殊任务2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_773/h_337/829/43637/2025/2/18/848777.png",
-    "status": "已结束",
-    "progress": "2025/03/24-2025/03/31"
-  },
-  {
-    "title": "课程表2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_775/h_349/829/43637/2025/2/18/764030.png",
-    "status": "已结束",
-    "progress": "2025/03/24-2025/03/31"
-  },
-  {
-    "title": "悬赏通缉2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_760/h_333/829/43637/2025/2/18/484038.png",
-    "status": "已结束",
-    "progress": "2025/03/17-2025/03/24"
-  },
-  {
-    "title": "[活动] 寻找隐藏的遗产～三一的课外活动～ -复刻-",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_641/h_271/829/43637/2025/2/5/872398.png",
-    "status": "已结束",
-    "progress": "2025/03/04-2025/03/18"
-  },
-  {
-    "title": "大决战 – 佩洛洛吉拉(野战)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_773/h_358/829/43637/2025/2/5/953155.png",
-    "status": "已结束",
-    "progress": "2025/03/11-2025/03/17"
-  },
-  {
-    "title": "任务(Hard)奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_753/h_330/829/43637/2025/2/5/478369.png",
-    "status": "已结束",
-    "progress": "2025/03/10-2025/03/17"
-  },
-  {
-    "title": "学园交流会奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_754/h_304/829/43637/2025/2/5/270407.png",
-    "status": "已结束",
-    "progress": "2025/03/10-2025/03/17"
-  },
-  {
-    "title": "制约解除决战 – 赛特的愤怒(轻装甲)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_270/h_130/829/43637/2025/2/5/67274.png",
-    "status": "已结束",
-    "progress": "2025/02/19-2025/03/17"
-  },
-  {
-    "title": "综合战术考试(射击考试)",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_779/h_349/829/43637/2025/2/5/716047.png",
-    "status": "已结束",
-    "progress": "2025/03/04-2025/03/10"
-  },
-  {
-    "title": "任务(Normal)奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_765/h_353/829/43637/2025/2/5/587319.png",
-    "status": "已结束",
-    "progress": "2025/03/03-2025/03/10"
-  },
-  {
-    "title": "课程表奖励2倍",
-    "description": "",
-    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_748/h_332/829/43637/2025/2/5/38005.png",
-    "status": "已结束",
-    "progress": "2025/03/03-2025/03/10"
+    "progress": "2025/06/11-2025/07/07",
+    "type": [
+      "制约解除决战"
+    ]
   }
 ]
