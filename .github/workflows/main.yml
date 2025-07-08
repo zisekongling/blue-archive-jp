@@ -7,7 +7,7 @@ on:
   push:
     paths-ignore:
       - 'data/game_cards.json'
-      - 'data/action_cards.json'  # 新增忽略项
+      - 'data/activity_cards.json'  # 新增忽略项
 
 jobs:
   update:
@@ -51,7 +51,7 @@ jobs:
           echo '{"error": "game_cards.json not generated"}' > data/game_cards.json
         fi
         if [ ! -f "data/action_cards.json" ]; then
-          echo '{"error": "action_cards.json not generated"}' > data/action_cards.json
+          echo '{"error": "action_cards.json not generated"}' > data/activity_cards.json
         fi
         
     - name: Commit and push changes
@@ -70,8 +70,8 @@ jobs:
           if (fs.existsSync('data/game_cards.json')) {
             filesToAdd.push('data/game_cards.json');
           }
-          if (fs.existsSync('data/action_cards.json')) {
-            filesToAdd.push('data/action_cards.json');
+          if (fs.existsSync('data/activity_cards.json')) {
+            filesToAdd.push('data/activity_cards.json');
           }
           
           if (filesToAdd.length === 0) {
