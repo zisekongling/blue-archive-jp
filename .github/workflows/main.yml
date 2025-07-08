@@ -1,43 +1,47 @@
-name: Scrape Game Cards
+name: Update Game Cards Data
 
 on:
   schedule:
     - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（北京时间 08:00）
   workflow_dispatch:      # 允许手动触发
-
-permissions:
-  contents: write  # 授予写入仓库的权限
+  push:
+    paths-ignore:
+      - 'data/game_cards.json'  # 忽略数据文件本身的更改
 
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 授予写入仓库的权限
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # 获取完整历史记录
-    
+        
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    
+        
     - name: Install Chrome browser
       uses: browser-actions/setup-chrome@v1
       with:
         chrome-version: stable
-    
+        
     - name: Install Python packages
       run: pip install -r requirements.txt
-    
-    - name: Run scraper
+        
+    - name: Run data scraper
       run: python scraper.py
-    
-    - name: Commit and push changes using GitHub Script
+      
+    - name: Commit and push changes
       uses: actions/github-script@v6
       with:
         script: |
+          const { execSync } = require('child_process');
+          
           // 配置 Git 用户
           execSync('git config --global user.name "GitHub Actions"');
           execSync('git config --global user.email "actions@users.noreply.github.com"');
@@ -52,16 +56,22 @@ jobs:
             return;
           }
           
-          // 创建提交
+          // 提交更改
           const commitMessage = `自动更新游戏卡片数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
           execSync(`git commit -m "${commitMessage}"`);
           
-          // 推送更改
+          // 强制推送到 GitHub
           try {
-            execSync('git push');
-            console.log('推送成功');
-          } catch (pushError) {
-            console.log('推送失败，尝试强制推送...');
-            execSync('git push --force');
+            execSync('git push origin HEAD:${{ github.ref }} --force');
             console.log('强制推送成功');
+          } catch (error) {
+            console.error('强制推送失败:', error);
+            
+            // 如果强制推送失败，先拉取最新更改再强制推送
+            console.log('尝试拉取最新更改并强制推送...');
+            execSync('git fetch origin');
+            execSync('git reset --hard origin/${{ github.ref }}');
+            execSync('git merge --ff-only origin/${{ github.ref }}');
+            execSync('git push origin HEAD:${{ github.ref }} --force');
+            console.log('重新推送成功');
           }
