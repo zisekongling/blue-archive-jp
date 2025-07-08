@@ -1,40 +1,6 @@
 {
-  "crawl_time": "2025-07-08T15:30:04.641142",
-  "cards": [
-    {
-      "title": "莉央",
-      "description": "莉央",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/890743.png",
-      "status": "将开始",
-      "tags": [
-        "FES限定"
-      ],
-      "progress": "6天10小时后开始UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "宁瑠(制服)",
-      "description": "宁瑠(制服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/186941.png",
-      "status": "将开始",
-      "tags": [
-        "FES限定"
-      ],
-      "progress": "6天10小时后开始UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "花子(泳装)",
-      "description": "花子(泳装)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/144324.png",
-      "status": "将开始",
-      "tags": [
-        "FES限定",
-        "复刻"
-      ],
-      "progress": "6天10小时后开始UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
+  "crawl_time": "2025-07-08T23:50:20+08:00",
+  "pools": [
     {
       "title": "圣亚",
       "description": "圣亚",
@@ -44,7 +10,7 @@
         "限定"
       ],
       "progress": "UP还剩下6天3小时",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "type": "其他招募"
     },
     {
       "title": "明日奈(制服)",
@@ -55,7 +21,7 @@
         "限定"
       ],
       "progress": "UP还剩下6天3小时",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "type": "其他招募"
     },
     {
       "title": "爱丽丝(女仆)",
@@ -63,8 +29,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/462912.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13小时31分钟未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "progress": "已经有13小时51分钟未UP",
+      "type": "其他招募"
     },
     {
       "title": "季(兔女郎)",
@@ -72,8 +38,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/441369.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13小时31分钟未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "progress": "已经有13小时51分钟未UP",
+      "type": "其他招募"
     },
     {
       "title": "桃井(女仆)",
@@ -81,8 +47,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/274809.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13小时31分钟未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "progress": "已经有13小时51分钟未UP",
+      "type": "其他招募"
     },
     {
       "title": "绿(女仆)",
@@ -90,465 +56,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/1114.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13小时31分钟未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "遥香(正月)",
-      "description": "遥香(正月)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/977036.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有7天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "佳世子(正月)",
-      "description": "佳世子(正月)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/736638.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有7天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "无月(正月)",
-      "description": "无月(正月)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/386833.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有7天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "亚瑠(正月)",
-      "description": "亚瑠(正月)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/438879.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有7天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "乃爱(睡衣)",
-      "description": "乃爱(睡衣)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/9/846286.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有14天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "优香(睡衣)",
-      "description": "优香(睡衣)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/9/297547.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有14天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "羽留奈（体育服）",
-      "description": "羽留奈（体育服）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/991197.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "乃爱",
-      "description": "乃爱",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/290656.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "亚都梨（应援团）",
-      "description": "亚都梨（应援团）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/199637.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "咏叶（应援团）",
-      "description": "咏叶（应援团）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/313155.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "玛丽（体育服）",
-      "description": "玛丽（体育服）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/190467.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "优香（体育服）",
-      "description": "优香（体育服）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/3/990912.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有28天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "惠",
-      "description": "惠",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/26/652078.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有35天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "伊织",
-      "description": "伊织",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/26/353095.jpg",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有35天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "一花",
-      "description": "一花",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/26/336122.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有35天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "佳澄",
-      "description": "佳澄",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/26/998727.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有35天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "皋月",
-      "description": "皋月",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/12/935109.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有42天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "千秋",
-      "description": "千秋",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/12/539935.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有42天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "亚子（礼服）",
-      "description": "亚子（礼服）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/12/682580.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有42天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "真琴",
-      "description": "真琴",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/12/974221.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有42天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "白子（单车）",
-      "description": "白子（单车）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/6/972711.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有56天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "伊织（泳装）",
-      "description": "伊织（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/6/511086.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有56天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "阳奈（泳装）",
-      "description": "阳奈（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/4/6/348625.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有56天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "日向",
-      "description": "日向",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/3/28/526638.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有63天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "纱织",
-      "description": "纱织",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/3/28/75837.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有63天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "樱子（偶像）",
-      "description": "樱子（偶像）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/3/15/796125.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有70天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "玛丽（偶像）",
-      "description": "玛丽（偶像）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/3/15/267402.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有70天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "紫",
-      "description": "紫",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/600020.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有84天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "莲华",
-      "description": "莲华",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/309045.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有84天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "桔梗",
-      "description": "桔梗",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/631496.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有84天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "梓（泳装）",
-      "description": "梓（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/824615.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有91天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "真白（泳装）",
-      "description": "真白（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/520121.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有91天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "日富美（泳装）",
-      "description": "日富美（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/31/975431.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有91天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "妃姬",
-      "description": "妃姬",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/18/389822.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有98天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "令女",
-      "description": "令女",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/18/676527.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有98天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "旬(幼女)",
-      "description": "旬(幼女)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/18/912612.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有98天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "桐乃",
-      "description": "桐乃",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/18/962557.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有98天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "沙耶(私服)",
-      "description": "沙耶(私服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/18/448942.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有98天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "宁瑠(兔女郎)",
-      "description": "宁瑠(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/10/498090.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有112天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "花凛(兔女郎)",
-      "description": "花凛(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/10/889144.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有112天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "明日奈(兔女郎)",
-      "description": "明日奈(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/10/83895.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有112天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "朱音(兔女郎)",
-      "description": "朱音(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/10/179747.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有112天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "忧（泳装）",
-      "description": "忧（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/5/283401.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有119天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "日向（泳装）",
-      "description": "日向（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/5/952768.png",
-      "status": "已结束",
-      "tags": [
-        "限定"
-      ],
-      "progress": "已经有119天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "美游",
-      "description": "美游",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/2/5/514357.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有119天13小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "智惠（旗袍）",
-      "description": "智惠（旗袍）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/2/5/959878.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有126天23小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
-    },
-    {
-      "title": "玛丽娜（旗袍）",
-      "description": "玛丽娜（旗袍）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/2/5/566032.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有126天23小时未UP",
-      "crawl_time": "2025-07-08T15:30:04.641142"
+      "progress": "已经有13小时51分钟未UP",
+      "type": "其他招募"
     }
   ]
 }
