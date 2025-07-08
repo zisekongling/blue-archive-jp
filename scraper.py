@@ -9,6 +9,7 @@ import json
 import time
 import os
 import traceback
+import datetime  # 添加 datetime 模块
 
 def get_dynamic_cards():
     try:
@@ -46,6 +47,9 @@ def get_dynamic_cards():
         cards = driver.find_elements(By.CLASS_NAME, "card-item")
         print(f"找到 {len(cards)} 张卡片")
         
+        # 获取当前时间（ISO格式）
+        crawl_time = datetime.datetime.now().isoformat()
+        
         # 提取卡片数据
         for i, card in enumerate(cards, 1):
             try:
@@ -76,7 +80,8 @@ def get_dynamic_cards():
                     "image_url": img_url,
                     "status": current_status,
                     "tags": tags,
-                    "progress": progress_text
+                    "progress": progress_text,
+                    "crawl_time": crawl_time  # 添加爬取时间到每条记录
                 })
                 print(f"已解析卡片 {i}/{len(cards)}")
             except Exception as card_err:
@@ -84,12 +89,12 @@ def get_dynamic_cards():
                 continue
         
         print(f"成功提取 {len(card_data)} 张卡片")
-        return card_data
+        return card_data, crawl_time  # 返回数据和时间
         
     except Exception as e:
         print(f"爬取过程发生错误: {str(e)}")
-        traceback.print_exc()  # 打印完整堆栈跟踪
-        return []
+        traceback.print_exc()
+        return [], datetime.datetime.now().isoformat()
         
     finally:
         if 'driver' in locals():
@@ -101,16 +106,19 @@ if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
     
     # 执行爬取
-    results = get_dynamic_cards()
+    results, crawl_time = get_dynamic_cards()
+    
+    # 构建输出数据（包含顶层时间戳）
+    output_data = {
+        "crawl_time": crawl_time,  # 顶层时间戳
+        "cards": results           # 卡片列表
+    }
     
     # 保存结果
     output_file = "data/game_cards.json"
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
     
     print(f"结果已保存至: {os.path.abspath(output_file)}")
-    
-    # 打印统计信息
-    if results:
-        print(f"提取卡片数量: {len(results)}")
-        print(f"第一张卡片标题: {results[0]['title']}")
+    print(f"爬取时间: {crawl_time}")
+    print(f"提取卡片数量: {len(results)}")
