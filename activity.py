@@ -18,6 +18,39 @@ logging.basicConfig(
     handlers=[logging.StreamHandler()]
 )
 
+# 定义活动类型映射规则
+def get_activity_types(title):
+    """根据活动标题获取类型列表"""
+    types = []
+    
+    # 规则匹配（注意顺序，确保优先匹配特定类型）
+    if "2倍" in title or "3倍" in title:
+        types.append("资源翻倍")
+    if "登入活动" in title:
+        types.append("签到")
+    if "制约解除决战" in title:
+        types.append("制约解除决战")
+    if "[活动]" in title:
+        types.append("活动")
+    if "总力战" in title:
+        types.append("总力战")
+    if "招募100次" in title:
+        types.append("庆典")
+    if "大决战" in title:
+        types.append("大决战")
+    if "综合战术考试" in title:
+        types.append("考试")
+    if "[迷你活动]" in title:
+        types.append("长草活动")
+    if "复刻" in title:
+        types.append("复刻")
+    
+    # 如果没有匹配到任何类型，添加默认类型
+    if not types:
+        types.append("其他")
+    
+    return types
+
 def get_dynamic_cards():
     try:
         # GitHub Actions 环境设置
@@ -49,7 +82,11 @@ def get_dynamic_cards():
                 options=chrome_options
             )
 
-        card_data = []
+        # 初始化状态分类列表
+        ongoing_cards = []  # 进行中活动
+        upcoming_cards = []  # 未开启活动
+        ended_cards = []  # 已结束活动
+        
         target_url = "https://www.gamekee.com/ba/huodong/17"  # 正确的活动URL
         logging.info(f"访问目标页面: {target_url}")
         driver.get(target_url)
@@ -98,19 +135,36 @@ def get_dynamic_cards():
                 progress_element = card.find_element(By.CSS_SELECTOR, ".progess-box .txt")
                 progress_text = progress_element.text
                 
-                card_data.append({
+                # 获取活动类型
+                activity_types = get_activity_types(title)
+                
+                card_item = {
                     "title": title,
                     "description": desc,
                     "image_url": img_url,
                     "status": current_status,
-                    "progress": progress_text
-                })
+                    "progress": progress_text,
+                    "type": activity_types  # 添加类型字段
+                }
+                
+                # 根据状态分类
+                if "进行中" in current_status:
+                    ongoing_cards.append(card_item)
+                elif "未开启" in current_status:
+                    upcoming_cards.append(card_item)
+                elif "已结束" in current_status:
+                    ended_cards.append(card_item)
+                
             except Exception as card_err:
                 logging.error(f"卡片解析失败: {str(card_err)[:100]}")
                 continue
         
-        logging.info(f"成功提取 {len(card_data)} 张卡片信息")
-        return card_data
+        # 组合最终结果：所有进行中+未开启活动 + 最新的5个已结束活动
+        result_cards = ongoing_cards + upcoming_cards + ended_cards[:5]
+        
+        logging.info(f"活动统计: 进行中 {len(ongoing_cards)} 个, 未开启 {len(upcoming_cards)} 个, 已结束 {len(ended_cards)} 个")
+        logging.info(f"最终保留 {len(result_cards)} 张卡片信息")
+        return result_cards
         
     except Exception as e:
         logging.error(f"爬取过程发生错误: {str(e)}")
@@ -125,10 +179,13 @@ if __name__ == "__main__":
     results = get_dynamic_cards()
     
     # 保存结果到JSON文件
-    output_file = "data/activity_cards.json"
+    output_dir = "data"
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, "activity_cards.json")
+    
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     
     logging.info(f"结果已保存至: {os.path.abspath(output_file)}")
     if results:
-        logging.info(f"第一张卡片: {results[0]['title']}")
+        logging.info(f"第一张卡片: {results[0]['title']} - 类型: {results[0]['type']}")
