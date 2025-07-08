@@ -5,44 +5,52 @@ on:
     - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（北京时间 08:00）
   workflow_dispatch:      # 允许手动触发
 
+permissions:
+  contents: write  # 关键：授予写入仓库的权限
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        persist-credentials: true
-
+        fetch-depth: 0  # 获取所有提交历史
+    
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-
+    
     - name: Install Chrome browser
       uses: browser-actions/setup-chrome@v1
       with:
         chrome-version: stable
-
+    
     - name: Install Python packages
       run: pip install -r requirements.txt
-
+    
     - name: Run scraper
       run: python scraper.py
-
-    - name: Commit and push results
+    
+    - name: Commit and push changes
       run: |
-        # 设置正确的用户信息
-        git config --global user.email "github-actions@example.com"
+        # 配置 Git 用户
         git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@users.noreply.github.com"
         
-        # 添加并提交更改
+        # 添加更改
         git add data/game_cards.json
-        git commit -m "自动更新游戏卡片数据 $(date +'%Y-%m-%d %H:%M')"
         
-        # 强制推送更改
+        # 检查是否有更改
+        if git diff --cached --quiet; then
+          echo "没有需要提交的更改"
+          exit 0
+        fi
+        
+        # 提交更改
+        git commit -m "自动更新游戏卡片数据: $(date +'%Y-%m-%d %H:%M')"
+        
+        # 强制推送到仓库
         git push origin HEAD:main --force
-      env:
-        # 使用 GitHub Token 进行认证
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
