@@ -7,7 +7,7 @@ on:
   push:
     paths-ignore:
       - 'data/game_cards.json'
-      - 'data/activity_cards.json'  # 新增忽略项
+      - 'data/activity_cards.json'  # 修复文件名
 
 jobs:
   update:
@@ -40,18 +40,16 @@ jobs:
     - name: Run activity cards scraper
       run: python activity.py  # 第二个爬虫
       
-    # 新增：确保数据目录存在
     - name: Create data directory if missing
       run: mkdir -p data
       
-    # 新增：验证文件存在
     - name: Verify files exist
       run: |
         if [ ! -f "data/game_cards.json" ]; then
           echo '{"error": "game_cards.json not generated"}' > data/game_cards.json
         fi
-        if [ ! -f "data/action_cards.json" ]; then
-          echo '{"error": "action_cards.json not generated"}' > data/activity_cards.json
+        if [ ! -f "data/activity_cards.json" ]; then  # 修复文件名
+          echo '{"error": "activity_cards.json not generated"}' > data/activity_cards.json
         fi
         
     - name: Commit and push changes
@@ -65,12 +63,12 @@ jobs:
           execSync('git config --global user.name "GitHub Actions"');
           execSync('git config --global user.email "actions@users.noreply.github.com"');
           
-          // 安全添加文件（检查文件是否存在）
+          // 安全添加文件
           const filesToAdd = [];
           if (fs.existsSync('data/game_cards.json')) {
             filesToAdd.push('data/game_cards.json');
           }
-          if (fs.existsSync('data/activity_cards.json')) {
+          if (fs.existsSync('data/activity_cards.json')) {  // 修复文件名
             filesToAdd.push('data/activity_cards.json');
           }
           
@@ -99,12 +97,17 @@ jobs:
           } catch (error) {
             console.error('推送失败:', error);
             
-            // 如果推送失败，尝试强制推送
+            // 修复分支引用格式
+            // 获取分支名称（去掉 refs/heads/ 前缀）
+            const branchRef = "${{ github.ref }}";
+            const branchName = branchRef.replace('refs/heads/', '');
+            
             console.log('尝试强制推送...');
             execSync('git fetch origin');
-            execSync('git reset --hard origin/${{ github.ref }}');
-            execSync('git merge --ff-only origin/${{ github.ref }}');
-            execSync('git push origin HEAD:${{ github.ref }} --force');
+            
+            // 使用正确的分支引用格式
+            execSync(`git reset --hard origin/${branchName}`);
+            execSync(`git push origin HEAD:${branchName} --force`);
             console.log('强制推送成功');
           }
 
