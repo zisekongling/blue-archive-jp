@@ -6,8 +6,8 @@ on:
   workflow_dispatch:      # 允许手动触发
   push:
     paths-ignore:
-      - 'data/game_cards.json'  # 忽略数据文件本身的更改
-      - 'data/action_cards.json'  # 新增：忽略第二个数据文件
+      - 'data/game_cards.json'
+      - 'data/action_cards.json'  # 新增忽略项
 
 jobs:
   update:
@@ -37,22 +37,49 @@ jobs:
     - name: Run game cards scraper
       run: python scraper.py  # 第一个爬虫
       
-    # 新增步骤：运行第二个爬虫
     - name: Run activity cards scraper
       run: python activity.py  # 第二个爬虫
       
+    # 新增：确保数据目录存在
+    - name: Create data directory if missing
+      run: mkdir -p data
+      
+    # 新增：验证文件存在
+    - name: Verify files exist
+      run: |
+        if [ ! -f "data/game_cards.json" ]; then
+          echo '{"error": "game_cards.json not generated"}' > data/game_cards.json
+        fi
+        if [ ! -f "data/action_cards.json" ]; then
+          echo '{"error": "action_cards.json not generated"}' > data/action_cards.json
+        fi
+        
     - name: Commit and push changes
       uses: actions/github-script@v6
       with:
         script: |
           const { execSync } = require('child_process');
+          const fs = require('fs');
           
           // 配置 Git 用户
           execSync('git config --global user.name "GitHub Actions"');
           execSync('git config --global user.email "actions@users.noreply.github.com"');
           
-          // 添加更改的文件 (同时添加两个数据文件)
-          execSync('git add data/game_cards.json data/action_cards.json');
+          // 安全添加文件（检查文件是否存在）
+          const filesToAdd = [];
+          if (fs.existsSync('data/game_cards.json')) {
+            filesToAdd.push('data/game_cards.json');
+          }
+          if (fs.existsSync('data/action_cards.json')) {
+            filesToAdd.push('data/action_cards.json');
+          }
+          
+          if (filesToAdd.length === 0) {
+            console.log('没有需要添加的文件');
+            return;
+          }
+          
+          execSync(`git add ${filesToAdd.join(' ')}`);
           
           // 检查是否有更改
           const status = execSync('git status --porcelain').toString().trim();
@@ -65,20 +92,20 @@ jobs:
           const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
           execSync(`git commit -m "${commitMessage}"`);
           
-          // 强制推送到 GitHub
+          // 推送到 GitHub
           try {
-            execSync('git push origin HEAD:${{ github.ref }} --force');
-            console.log('强制推送成功');
+            execSync('git push origin HEAD:${{ github.ref }}');
+            console.log('推送成功');
           } catch (error) {
-            console.error('强制推送失败:', error);
+            console.error('推送失败:', error);
             
-            // 如果强制推送失败，先拉取最新更改再强制推送
-            console.log('尝试拉取最新更改并强制推送...');
+            // 如果推送失败，尝试强制推送
+            console.log('尝试强制推送...');
             execSync('git fetch origin');
             execSync('git reset --hard origin/${{ github.ref }}');
             execSync('git merge --ff-only origin/${{ github.ref }}');
             execSync('git push origin HEAD:${{ github.ref }} --force');
-            console.log('重新推送成功');
+            console.log('强制推送成功');
           }
 
     - name: Push to Gitee Mirror
@@ -90,7 +117,6 @@ jobs:
         # 添加 Gitee 远程仓库
         git remote add gitee https://${{ env.GITEE_USERNAME }}:${{ env.GITEE_TOKEN }}@gitee.com/${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
         
-        # 强制推送到 Gitee 镜像仓库
-        git push --force gitee HEAD:${{ github.ref }}
-        
+        # 推送到 Gitee 镜像仓库
+        git push gitee HEAD:${{ github.ref }} --force
         echo "已成功推送到 Gitee 镜像仓库"
