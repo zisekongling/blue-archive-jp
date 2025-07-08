@@ -125,7 +125,7 @@ if __name__ == "__main__":
     results = get_dynamic_cards()
     
     # 保存结果到JSON文件
-    output_file = "activity_cards.json"
+    output_file = "data/activity_cards.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     
