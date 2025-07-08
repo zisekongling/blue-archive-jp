@@ -76,14 +76,15 @@ jobs:
             console.log('重新推送成功');
           }
 
-   - name: Push to Gitee Mirror
+    # 修复点 1：对齐缩进 (关键修复)
+    - name: Push to Gitee Mirror
       env:
-        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 修复点 2：移除多余括号
         GITEE_USERNAME: zisekongling
         GITEE_REPO: blue_archive
       run: |
         # 添加 Gitee 远程仓库
-        git remote add gitee https://${GITEE_USERNAME}:${GITEE_TOKEN}@gitee.com/${GITEE_USERNAME}/${GITEE_REPO}.git
+        git remote add gitee https://${{ env.GITEE_USERNAME }}:${{ env.GITEE_TOKEN }}@gitee.com/${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
         
         # 强制推送到 Gitee 镜像仓库
         git push --force gitee HEAD:${{ github.ref }}
