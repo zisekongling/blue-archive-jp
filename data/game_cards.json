@@ -1,0 +1,65 @@
+{
+  "crawl_time": "2025-07-09T21:22:18+08:00",
+  "pools": [
+    {
+      "title": "萌绘（泳装）",
+      "description": "萌绘（泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/763327.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下12天12小时",
+      "start_time": null,
+      "end_time": "2025-07-22T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "咲（泳装）",
+      "description": "咲（泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/274802.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下12天12小时",
+      "start_time": null,
+      "end_time": "2025-07-22T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "宫子（泳装）",
+      "description": "宫子（泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/553317.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下12天12小时",
+      "start_time": null,
+      "end_time": "2025-07-22T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "莲华（泳装）",
+      "description": "莲华（泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/5/26/973085.png",
+      "status": "已结束",
+      "tags": [],
+      "progress": "已经有11小时22分钟未UP",
+      "start_time": null,
+      "end_time": "2025-07-09T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "桔梗（泳装）",
+      "description": "（桔梗泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/5/26/218813.png",
+      "status": "已结束",
+      "tags": [],
+      "progress": "已经有11小时22分钟未UP",
+      "start_time": null,
+      "end_time": "2025-07-09T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "缘里（泳装）",
+      "description": "缘里（泳装）",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/5/26/132981.png",
+      "status": "已结束",
+      "tags": [],
+      "progress": "已经有11小时22分钟未UP",
+      "start_time": null,
+      "end_time": "2025-07-09T10:00:00+08:00+08:00"
+    }
+  ]
+}
