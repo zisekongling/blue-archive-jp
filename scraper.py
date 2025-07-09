@@ -45,7 +45,7 @@ def get_dynamic_cards():
             options=chrome_options
         )
         
-        target_url = "https://www.gamekee.com/ba/kachi/17"
+        target_url = "https://www.gamekee.com/ba/kachi/15"
         
         print("开始加载页面...")
         driver.get(target_url)
