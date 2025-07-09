@@ -51,6 +51,28 @@ def get_activity_types(title):
     
     return types
 
+def parse_time_range(progress_text):
+    """解析时间范围字符串，返回开始和结束时间的ISO格式字符串"""
+    try:
+        # 尝试分割时间范围字符串
+        if " ~ " in progress_text:
+            start_str, end_str = progress_text.split(" ~ ")
+            
+            # 转换时间格式为ISO 8601（添加秒和时区）
+            start_dt = datetime.datetime.strptime(start_str, "%Y-%m-%d %H:%M")
+            end_dt = datetime.datetime.strptime(end_str, "%Y-%m-%d %H:%M")
+            
+            # 添加UTC+8时区信息
+            tz = datetime.timezone(datetime.timedelta(hours=8))
+            start_dt = start_dt.replace(tzinfo=tz)
+            end_dt = end_dt.replace(tzinfo=tz)
+            
+            return start_dt.isoformat(), end_dt.isoformat()
+    except Exception as e:
+        logging.error(f"解析时间范围失败: {progress_text}, 错误: {str(e)}")
+    
+    return None, None
+
 def get_dynamic_cards():
     try:
         # GitHub Actions 环境设置
@@ -178,14 +200,42 @@ if __name__ == "__main__":
     # 执行爬取
     results = get_dynamic_cards()
     
+    # 处理卡片数据：添加时间字段，删除tags字段
+    processed_results = []
+    for card in results:
+        # 解析时间范围
+        start_time, end_time = parse_time_range(card["progress"])
+        
+        # 创建新卡片对象，删除tags字段
+        new_card = {
+            "title": card["title"],
+            "description": card["description"],
+            "image_url": card["image_url"],
+            "status": card["status"],
+            "progress": card["progress"],
+            "start_time": start_time,
+            "end_time": end_time
+        }
+        processed_results.append(new_card)
+    
+    # 添加爬取时间（当前时间+8小时）
+    tz = datetime.timezone(datetime.timedelta(hours=8))
+    crawl_time = datetime.datetime.now(tz).isoformat()
+    
+    # 构建最终输出结构
+    final_output = {
+        "crawl_time": crawl_time,
+        "activities": processed_results
+    }
+    
     # 保存结果到JSON文件
     output_dir = "data"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "activity_cards.json")
     
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(final_output, f, ensure_ascii=False, indent=2)
     
     logging.info(f"结果已保存至: {os.path.abspath(output_file)}")
-    if results:
-        logging.info(f"第一张卡片: {results[0]['title']} - 类型: {results[0]['tags']}")
+    if processed_results:
+        logging.info(f"第一张卡片: {processed_results[0]['title']} - 开始时间: {processed_results[0]['start_time']}")
