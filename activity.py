@@ -150,7 +150,7 @@ def get_dynamic_cards():
                 # 根据状态分类
                 if "进行中" in current_status:
                     ongoing_cards.append(card_item)
-                elif "未开启" in current_status:
+                elif "未开始" in current_status:
                     upcoming_cards.append(card_item)
                 elif "已结束" in current_status:
                     ended_cards.append(card_item)
