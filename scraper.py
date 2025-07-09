@@ -114,7 +114,7 @@ def get_dynamic_cards():
                 }
                 
                 # 根据状态分类
-                if "未开启" in current_status:
+                if "将开始" in current_status:
                     upcoming_pools.append(card_data)
                 elif "进行中" in current_status:
                     ongoing_pools.append(card_data)
