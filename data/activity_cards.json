@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-07-09T12:01:26.583769+08:00",
+  "crawl_time": "2025-07-09T12:17:25.797225+08:00",
   "activities": [
     {
       "title": "[登入活动] 千年EXPO纪念登入活动",
@@ -8,7 +8,7 @@
       "status": "进行中",
       "progress": "还剩下26天21小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-05T09:17:25.797225+08:00"
     },
     {
       "title": "制约解除决战 – 赛特的愤怒(特殊装甲)",
@@ -17,7 +17,7 @@
       "status": "进行中",
       "progress": "还剩下26天14小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-05T02:17:25.797225+08:00"
     },
     {
       "title": "[活动] Code:BOX 逼近千年的黑影～一个问题与两个答案～",
@@ -26,7 +26,7 @@
       "status": "进行中",
       "progress": "还剩下12天21小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-22T09:17:25.797225+08:00"
     },
     {
       "title": "免费招募100次活动",
@@ -35,7 +35,7 @@
       "status": "进行中",
       "progress": "还剩下5天21小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-15T09:17:25.797225+08:00"
     },
     {
       "title": "课程表3倍",
@@ -44,7 +44,7 @@
       "status": "进行中",
       "progress": "还剩下5天14小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-15T02:17:25.797225+08:00"
     },
     {
       "title": "悬赏通缉3倍",
@@ -53,7 +53,7 @@
       "status": "进行中",
       "progress": "还剩下5天14小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-15T02:17:25.797225+08:00"
     },
     {
       "title": "任务(Hard)3倍",
@@ -61,8 +61,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/96733.jpg",
       "status": "未开始",
       "progress": "2025/07/18-2025/07/21",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-18T00:00:00+08:00",
+      "end_time": "2025-07-21T00:00:00+08:00"
     },
     {
       "title": "总力战 – 葛夫拉(野战)",
@@ -70,8 +70,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/7/771063.jpg",
       "status": "未开始",
       "progress": "2025/07/15-2025/07/21",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-15T00:00:00+08:00",
+      "end_time": "2025-07-21T00:00:00+08:00"
     },
     {
       "title": "帐号经验值2倍",
@@ -79,8 +79,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/631158.png",
       "status": "未开始",
       "progress": "2025/07/18-2025/07/20",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-18T00:00:00+08:00",
+      "end_time": "2025-07-20T00:00:00+08:00"
     },
     {
       "title": "任务(Normal)3倍",
@@ -88,8 +88,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/303708.jpg",
       "status": "未开始",
       "progress": "2025/07/14-2025/07/18",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-14T00:00:00+08:00",
+      "end_time": "2025-07-18T00:00:00+08:00"
     },
     {
       "title": "帐号经验值2倍",
@@ -97,8 +97,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/340330.png",
       "status": "未开始",
       "progress": "2025/07/11-2025/07/13",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-11T00:00:00+08:00",
+      "end_time": "2025-07-13T00:00:00+08:00"
     },
     {
       "title": "[迷你活动] 夏莱总结算with联邦学生会",
@@ -106,8 +106,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/641875.jpg",
       "status": "已结束",
       "progress": "2025/06/24-2025/07/08",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-06-24T00:00:00+08:00",
+      "end_time": "2025-07-08T00:00:00+08:00"
     },
     {
       "title": "大决战 – KAITEN FX Mk.0 (城镇战)",
@@ -115,8 +115,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/840139.jpg",
       "status": "已结束",
       "progress": "2025/07/01-2025/07/07",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-07-01T00:00:00+08:00",
+      "end_time": "2025-07-07T00:00:00+08:00"
     },
     {
       "title": "任务(Hard)奖励2倍",
@@ -124,8 +124,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/5/24/461862.jpg",
       "status": "已结束",
       "progress": "2025/06/30-2025/07/07",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-06-30T00:00:00+08:00",
+      "end_time": "2025-07-07T00:00:00+08:00"
     },
     {
       "title": "学园交流会奖励2倍",
@@ -133,8 +133,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/5/24/43157.jpg",
       "status": "已结束",
       "progress": "2025/06/30-2025/07/07",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-06-30T00:00:00+08:00",
+      "end_time": "2025-07-07T00:00:00+08:00"
     },
     {
       "title": "制约解除决战 – 霍刻玛(重装甲)",
@@ -142,8 +142,8 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/5/9/866067.jpg",
       "status": "已结束",
       "progress": "2025/06/11-2025/07/07",
-      "start_time": null,
-      "end_time": null
+      "start_time": "2025-06-11T00:00:00+08:00",
+      "end_time": "2025-07-07T00:00:00+08:00"
     }
   ]
 }
