@@ -1,125 +1,66 @@
-name: Update Game Cards Data
-
-on:
-  schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（北京时间 08:00）
-  workflow_dispatch:      # 允许手动触发
-  push:
-    paths-ignore:
-      - 'data/game_cards.json'
-      - 'data/activity_cards.json'  # 修复文件名
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write  # 授予写入仓库的权限
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # 获取完整历史记录
-        
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-        
-    - name: Install Chrome browser
-      uses: browser-actions/setup-chrome@v1
-      with:
-        chrome-version: stable
-        
-    - name: Install Python packages
-      run: pip install -r requirements.txt
-        
-    - name: Run game cards scraper
-      run: python scraper.py  # 第一个爬虫
+- name: Commit and push changes
+  uses: actions/github-script@v6
+  with:
+    script: |
+      const { execSync } = require('child_process');
+      const fs = require('fs');
       
-    - name: Run activity cards scraper
-      run: python activity.py  # 第二个爬虫
+      // 配置 Git 用户
+      execSync('git config --global user.name "GitHub Actions"');
+      execSync('git config --global user.email "actions@users.noreply.github.com"');
       
-    - name: Create data directory if missing
-      run: mkdir -p data
+      // 安全添加文件
+      const filesToAdd = [];
+      if (fs.existsSync('data/game_cards.json')) {
+        filesToAdd.push('data/game_cards.json');
+      }
+      if (fs.existsSync('data/activity_cards.json')) {
+        filesToAdd.push('data/activity_cards.json');
+      }
       
-    - name: Verify files exist
-      run: |
-        if [ ! -f "data/game_cards.json" ]; then
-          echo '{"error": "game_cards.json not generated"}' > data/game_cards.json
-        fi
-        if [ ! -f "data/activity_cards.json" ]; then  # 修复文件名
-          echo '{"error": "activity_cards.json not generated"}' > data/activity_cards.json
-        fi
+      if (filesToAdd.length === 0) {
+        console.log('没有需要添加的文件');
+        return;
+      }
+      
+      execSync(`git add ${filesToAdd.join(' ')}`);
+      
+      // 检查是否有更改
+      const status = execSync('git status --porcelain').toString().trim();
+      if (!status) {
+        console.log('没有需要提交的更改');
+        return;
+      }
+      
+      // 提交更改
+      const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
+      execSync(`git commit -m "${commitMessage}"`);
+      
+      // 推送到 GitHub - 修复后的逻辑
+      try {
+        execSync('git push origin HEAD:${{ github.ref }}');
+        console.log('推送成功');
+      } catch (error) {
+        console.error('推送失败:', error);
         
-    - name: Commit and push changes
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const { execSync } = require('child_process');
-          const fs = require('fs');
-          
-          // 配置 Git 用户
-          execSync('git config --global user.name "GitHub Actions"');
-          execSync('git config --global user.email "actions@users.noreply.github.com"');
-          
-          // 安全添加文件
-          const filesToAdd = [];
-          if (fs.existsSync('data/game_cards.json')) {
-            filesToAdd.push('data/game_cards.json');
-          }
-          if (fs.existsSync('data/activity_cards.json')) {  // 修复文件名
-            filesToAdd.push('data/activity_cards.json');
-          }
-          
-          if (filesToAdd.length === 0) {
-            console.log('没有需要添加的文件');
-            return;
-          }
-          
-          execSync(`git add ${filesToAdd.join(' ')}`);
-          
-          // 检查是否有更改
-          const status = execSync('git status --porcelain').toString().trim();
-          if (!status) {
-            console.log('没有需要提交的更改');
-            return;
-          }
-          
-          // 提交更改
-          const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
-          execSync(`git commit -m "${commitMessage}"`);
-          
-          // 推送到 GitHub
-          try {
-            execSync('git push origin HEAD:${{ github.ref }}');
-            console.log('推送成功');
-          } catch (error) {
-            console.error('推送失败:', error);
-            
-            // 修复分支引用格式
-            // 获取分支名称（去掉 refs/heads/ 前缀）
-            const branchRef = "${{ github.ref }}";
-            const branchName = branchRef.replace('refs/heads/', '');
-            
-            console.log('尝试强制推送...');
-            execSync('git fetch origin');
-            
-            // 使用正确的分支引用格式
-            execSync(`git reset --hard origin/${branchName}`);
-            execSync(`git push origin HEAD:${branchName} --force`);
-            console.log('强制推送成功');
-          }
-
-    - name: Push to Gitee Mirror
-      env:
-        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        GITEE_USERNAME: zisekongling
-        GITEE_REPO: blue_archive
-      run: |
-        # 添加 Gitee 远程仓库
-        git remote add gitee https://${{ env.GITEE_USERNAME }}:${{ env.GITEE_TOKEN }}@gitee.com/${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
+        // 获取分支名称（去掉 refs/heads/ 前缀）
+        const branchRef = "${{ github.ref }}";
+        const branchName = branchRef.replace('refs/heads/', '');
         
-        # 推送到 Gitee 镜像仓库
-        git push gitee HEAD:${{ github.ref }} --force
-        echo "已成功推送到 Gitee 镜像仓库"
+        console.log('尝试整合远程更改...');
+        
+        // 关键修复：使用变基(rebase)整合更改，保留本地提交
+        execSync(`git pull origin ${branchName} --rebase`);
+        
+        // 重新推送（此时历史已线性化）
+        try {
+          execSync('git push origin HEAD:${{ github.ref }}');
+          console.log('整合后推送成功');
+        } catch (retryError) {
+          console.error('二次推送失败，尝试强制推送:', retryError);
+          
+          // 仅在绝对必要时强制推送
+          execSync(`git push origin HEAD:${branchName} --force`);
+          console.log('强制推送成功');
+        }
+      }
