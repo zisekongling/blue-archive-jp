@@ -1,66 +1,201 @@
-- name: Commit and push changes
-  uses: actions/github-script@v6
-  with:
-    script: |
-      const { execSync } = require('child_process');
-      const fs = require('fs');
-      
-      // 配置 Git 用户
-      execSync('git config --global user.name "GitHub Actions"');
-      execSync('git config --global user.email "actions@users.noreply.github.com"');
-      
-      // 安全添加文件
-      const filesToAdd = [];
-      if (fs.existsSync('data/game_cards.json')) {
-        filesToAdd.push('data/game_cards.json');
-      }
-      if (fs.existsSync('data/activity_cards.json')) {
-        filesToAdd.push('data/activity_cards.json');
-      }
-      
-      if (filesToAdd.length === 0) {
-        console.log('没有需要添加的文件');
-        return;
-      }
-      
-      execSync(`git add ${filesToAdd.join(' ')}`);
-      
-      // 检查是否有更改
-      const status = execSync('git status --porcelain').toString().trim();
-      if (!status) {
-        console.log('没有需要提交的更改');
-        return;
-      }
-      
-      // 提交更改
-      const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`;
-      execSync(`git commit -m "${commitMessage}"`);
-      
-      // 推送到 GitHub - 修复后的逻辑
-      try {
-        execSync('git push origin HEAD:${{ github.ref }}');
-        console.log('推送成功');
-      } catch (error) {
-        console.error('推送失败:', error);
+name: Update Game Cards Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行（北京时间 08:00）
+  workflow_dispatch:      # 允许手动触发
+  push:
+    paths-ignore:
+      - 'data/game_cards.json'
+      - 'data/activity_cards.json'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 获取完整历史记录
         
-        // 获取分支名称（去掉 refs/heads/ 前缀）
-        const branchRef = "${{ github.ref }}";
-        const branchName = branchRef.replace('refs/heads/', '');
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
         
-        console.log('尝试整合远程更改...');
+    - name: Install Chrome browser
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: stable
         
-        // 关键修复：使用变基(rebase)整合更改，保留本地提交
-        execSync(`git pull origin ${branchName} --rebase`);
+    - name: Install Python packages
+      run: pip install -r requirements.txt
         
-        // 重新推送（此时历史已线性化）
-        try {
-          execSync('git push origin HEAD:${{ github.ref }}');
-          console.log('整合后推送成功');
-        } catch (retryError) {
-          console.error('二次推送失败，尝试强制推送:', retryError);
+    - name: Run game cards scraper
+      run: python scraper.py
+      
+    - name: Run activity cards scraper
+      run: python activity.py
+      
+    - name: Create data directory if missing
+      run: mkdir -p data
+      
+    - name: Verify files exist
+      run: |
+        if [ ! -f "data/game_cards.json" ]; then
+          echo '{"error": "game_cards.json not generated"}' > data/game_cards.json
+        fi
+        if [ ! -f "data/activity_cards.json" ]; then
+          echo '{"error": "activity_cards.json not generated"}' > data/activity_cards.json
+        fi
+        
+    - name: Commit and push changes
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const { execSync } = require('child_process');
+          const fs = require('fs');
           
-          // 仅在绝对必要时强制推送
-          execSync(`git push origin HEAD:${branchName} --force`);
-          console.log('强制推送成功');
-        }
-      }
+          // 获取分支信息
+          const branchRef = process.env.GITHUB_REF;
+          const branchName = branchRef.replace('refs/heads/', '');
+          
+          // 配置 Git 用户
+          execSync('git config --global user.name "GitHub Actions"');
+          execSync('git config --global user.email "actions@users.noreply.github.com"');
+          
+          // 安全添加文件
+          const filesToAdd = [];
+          ['data/game_cards.json', 'data/activity_cards.json'].forEach(file => {
+            if (fs.existsSync(file)) {
+              filesToAdd.push(file);
+              console.log(`添加文件: ${file}`);
+            } else {
+              console.warn(`文件不存在: ${file}`);
+            }
+          });
+          
+          if (filesToAdd.length === 0) {
+            core.setFailed('没有需要添加的数据文件');
+            return;
+          }
+          
+          execSync(`git add ${filesToAdd.join(' ')}`);
+          
+          // 检查是否有更改
+          const status = execSync('git status --porcelain').toString().trim();
+          if (!status) {
+            console.log('没有需要提交的更改');
+            return;
+          }
+          
+          // 提交更改（北京时间）
+          const commitMessage = `自动更新数据: ${new Date().toLocaleString('zh-CN', { 
+            timeZone: 'Asia/Shanghai',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit'
+          })}`;
+          
+          execSync(`git commit -m "${commitMessage}"`);
+          
+          // 推送函数（含自动重试逻辑）
+          const pushWithRetry = (maxAttempts = 2) => {
+            let attempt = 0;
+            
+            while (attempt < maxAttempts) {
+              try {
+                if (attempt > 0) {
+                  console.log(`尝试整合远程更改（第 ${attempt} 次）...`);
+                  execSync(`git pull origin ${branchName} --rebase`);
+                  
+                  // 冲突处理：优先保留本地数据
+                  const conflictStatus = execSync('git status --porcelain').toString();
+                  if (conflictStatus.includes('UU')) {
+                    console.log('检测到冲突，保留本地数据版本');
+                    execSync('git checkout --ours data/');
+                    execSync('git add data/');
+                    execSync('git rebase --continue');
+                  }
+                }
+                
+                execSync(`git push origin HEAD:${branchName}`);
+                console.log('推送成功');
+                return true;
+              } catch (error) {
+                attempt++;
+                console.error(`推送失败（尝试 ${attempt}/${maxAttempts}）:`, error.message);
+                
+                if (attempt >= maxAttempts) {
+                  console.log('最终尝试强制推送...');
+                  execSync(`git push origin HEAD:${branchName} --force`);
+                  console.log('强制推送成功');
+                  return true;
+                }
+              }
+            }
+          };
+          
+          // 执行推送
+          pushWithRetry();
+          
+          // 验证推送结果
+          try {
+            const remoteHash = execSync(`git ls-remote origin ${branchName} | cut -f1`).toString().trim();
+            const localHash = execSync('git rev-parse HEAD').toString().trim();
+            
+            if (remoteHash !== localHash) {
+              core.setFailed('推送后远程与本地提交不一致');
+            }
+          } catch (verifyError) {
+            console.warn('推送验证失败:', verifyError.message);
+          }
+
+    - name: Push to Gitee Mirror
+      env:
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        GITEE_USERNAME: zisekongling
+        GITEE_REPO: blue_archive
+      run: |
+        # 添加 Gitee 远程仓库
+        git remote add gitee https://$GITEE_USERNAME:$GITEE_TOKEN@gitee.com/$GITEE_USERNAME/$GITEE_REPO.git
+        
+        # 获取当前分支名
+        branch_name=${GITHUB_REF#refs/heads/}
+        
+        # 推送到 Gitee（带冲突处理）
+        max_attempts=3
+        attempt=1
+        
+        while [ $attempt -le $max_attempts ]; do
+          echo "尝试推送到 Gitee (第 $attempt 次)..."
+          git push gitee HEAD:$branch_name && {
+            echo "推送成功"
+            break
+          } || {
+            echo "推送失败，尝试拉取远程更改..."
+            git pull gitee $branch_name --rebase
+            
+            # 冲突时优先保留本地更改
+            if [ -n "$(git status --porcelain)" ]; then
+              echo "处理冲突..."
+              git checkout --ours data/
+              git add data/
+              git rebase --continue
+            fi
+            
+            attempt=$((attempt+1))
+            [ $attempt -gt $max_attempts ] && {
+              echo "最终尝试强制推送..."
+              git push gitee HEAD:$branch_name --force
+              break
+            }
+          }
+        done
+        
+        echo "镜像同步完成"
