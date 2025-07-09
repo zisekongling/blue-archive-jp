@@ -10,6 +10,7 @@ import os
 import logging
 import time
 import datetime
+import re
 
 # 配置日志
 logging.basicConfig(
@@ -51,26 +52,60 @@ def get_activity_types(title):
     
     return types
 
-def parse_time_range(progress_text):
-    """解析时间范围字符串，返回开始和结束时间的ISO格式字符串"""
-    try:
-        # 尝试分割时间范围字符串
-        if " ~ " in progress_text:
-            start_str, end_str = progress_text.split(" ~ ")
-            
-            # 转换时间格式为ISO 8601（添加秒和时区）
-            start_dt = datetime.datetime.strptime(start_str, "%Y-%m-%d %H:%M")
-            end_dt = datetime.datetime.strptime(end_str, "%Y-%m-%d %H:%M")
-            
-            # 添加UTC+8时区信息
-            tz = datetime.timezone(datetime.timedelta(hours=8))
-            start_dt = start_dt.replace(tzinfo=tz)
-            end_dt = end_dt.replace(tzinfo=tz)
-            
-            return start_dt.isoformat(), end_dt.isoformat()
-    except Exception as e:
-        logging.error(f"解析时间范围失败: {progress_text}, 错误: {str(e)}")
+def parse_time_range(progress_text, crawl_time_dt):
+    """
+    解析时间范围字符串，返回开始和结束时间的ISO格式字符串
+    支持两种格式：
+    1. 相对时间："还剩下X天Y小时"
+    2. 绝对时间："YYYY/MM/DD-YYYY/MM/DD"
+    """
+    # 处理相对时间格式（如"还剩下26天21小时"）
+    if "还剩下" in progress_text:
+        try:
+            # 提取天数和小时数
+            match = re.search(r'还剩下(\d+)天(\d+)小时', progress_text)
+            if match:
+                days = int(match.group(1))
+                hours = int(match.group(2))
+                
+                # 计算结束时间
+                time_delta = datetime.timedelta(days=days, hours=hours)
+                end_time = crawl_time_dt + time_delta
+                
+                # 开始时间未知，设为None
+                return None, end_time.isoformat()
+        except Exception as e:
+            logging.error(f"解析相对时间失败: {progress_text}, 错误: {str(e)}")
+            return None, None
     
+    # 处理绝对时间格式（如"2025/07/18-2025/07/21"）
+    if "-" in progress_text:
+        try:
+            # 分割时间范围字符串
+            parts = progress_text.split("-")
+            if len(parts) == 2:
+                start_str, end_str = parts
+                
+                # 统一格式化日期字符串
+                start_str = start_str.strip().replace("/", "-")
+                end_str = end_str.strip().replace("/", "-")
+                
+                # 转换为datetime对象
+                start_dt = datetime.datetime.strptime(start_str, "%Y-%m-%d")
+                end_dt = datetime.datetime.strptime(end_str, "%Y-%m-%d")
+                
+                # 添加UTC+8时区信息
+                tz = datetime.timezone(datetime.timedelta(hours=8))
+                start_dt = start_dt.replace(tzinfo=tz)
+                end_dt = end_dt.replace(tzinfo=tz)
+                
+                return start_dt.isoformat(), end_dt.isoformat()
+        except Exception as e:
+            logging.error(f"解析绝对时间失败: {progress_text}, 错误: {str(e)}")
+            return None, None
+    
+    # 无法识别的格式
+    logging.warning(f"无法解析的时间格式: {progress_text}")
     return None, None
 
 def get_dynamic_cards():
@@ -200,11 +235,16 @@ if __name__ == "__main__":
     # 执行爬取
     results = get_dynamic_cards()
     
+    # 添加爬取时间（当前时间+8小时）
+    tz = datetime.timezone(datetime.timedelta(hours=8))
+    crawl_time_dt = datetime.datetime.now(tz)
+    crawl_time = crawl_time_dt.isoformat()
+    
     # 处理卡片数据：添加时间字段，删除tags字段
     processed_results = []
     for card in results:
         # 解析时间范围
-        start_time, end_time = parse_time_range(card["progress"])
+        start_time, end_time = parse_time_range(card["progress"], crawl_time_dt)
         
         # 创建新卡片对象，删除tags字段
         new_card = {
@@ -217,10 +257,6 @@ if __name__ == "__main__":
             "end_time": end_time
         }
         processed_results.append(new_card)
-    
-    # 添加爬取时间（当前时间+8小时）
-    tz = datetime.timezone(datetime.timedelta(hours=8))
-    crawl_time = datetime.datetime.now(tz).isoformat()
     
     # 构建最终输出结构
     final_output = {
@@ -238,4 +274,4 @@ if __name__ == "__main__":
     
     logging.info(f"结果已保存至: {os.path.abspath(output_file)}")
     if processed_results:
-        logging.info(f"第一张卡片: {processed_results[0]['title']} - 开始时间: {processed_results[0]['start_time']}")
+        logging.info(f"第一张卡片: {processed_results[0]['title']} - 开始时间: {processed_results[0]['start_time']} - 结束时间: {processed_results[0]['end_time']}")
