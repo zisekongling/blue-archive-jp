@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-07-09T10:09:37+08:00",
+  "crawl_time": "2025-07-09T11:35:48+08:00",
   "pools": [
     {
       "title": "莉央",
@@ -9,7 +9,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "5天23小时后开始UP",
+      "progress": "5天22小时后开始UP",
       "type": "其他招募"
     },
     {
@@ -20,7 +20,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "5天23小时后开始UP",
+      "progress": "5天22小时后开始UP",
       "type": "其他招募"
     },
     {
@@ -32,7 +32,7 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "5天23小时后开始UP",
+      "progress": "5天22小时后开始UP",
       "type": "其他招募"
     },
     {
@@ -43,7 +43,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下5天16小时",
+      "progress": "UP还剩下5天15小时",
       "type": "其他招募"
     },
     {
@@ -54,7 +54,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下5天16小时",
+      "progress": "UP还剩下5天15小时",
       "type": "其他招募"
     },
     {
@@ -63,7 +63,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/462912.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有1天1小时未UP",
       "type": "其他招募"
     },
     {
@@ -72,7 +72,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/441369.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有1天1小时未UP",
       "type": "其他招募"
     },
     {
@@ -81,7 +81,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/274809.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有1天1小时未UP",
       "type": "其他招募"
     },
     {
@@ -90,7 +90,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/1114.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有1天1小时未UP",
       "type": "其他招募"
     }
   ]
