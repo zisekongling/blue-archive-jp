@@ -4,7 +4,7 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_2400/h_1050/829/43637/2025/6/7/755849.jpg",
     "status": "进行中",
-    "progress": "还剩下27天10小时",
+    "progress": "还剩下27天1小时",
     "type": [
       "签到"
     ]
@@ -14,7 +14,7 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/739947.jpg",
     "status": "进行中",
-    "progress": "还剩下13天10小时",
+    "progress": "还剩下13天1小时",
     "type": [
       "活动"
     ]
@@ -24,7 +24,7 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/687089.jpg",
     "status": "进行中",
-    "progress": "还剩下6天10小时",
+    "progress": "还剩下6天1小时",
     "type": [
       "庆典"
     ]
@@ -34,7 +34,7 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/798138.png",
     "status": "进行中",
-    "progress": "还剩下6天3小时",
+    "progress": "还剩下5天18小时",
     "type": [
       "资源翻倍"
     ]
@@ -44,7 +44,67 @@
     "description": "",
     "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/720572.png",
     "status": "进行中",
-    "progress": "还剩下6天3小时",
+    "progress": "还剩下5天18小时",
+    "type": [
+      "资源翻倍"
+    ]
+  },
+  {
+    "title": "制约解除决战 – 赛特的愤怒(特殊装甲)",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/145462.jpg",
+    "status": "未开始",
+    "progress": "2025/07/09-2025/08/04",
+    "type": [
+      "制约解除决战"
+    ]
+  },
+  {
+    "title": "任务(Hard)3倍",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/96733.jpg",
+    "status": "未开始",
+    "progress": "2025/07/18-2025/07/21",
+    "type": [
+      "资源翻倍"
+    ]
+  },
+  {
+    "title": "总力战 – 葛夫拉(野战)",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/7/771063.jpg",
+    "status": "未开始",
+    "progress": "2025/07/15-2025/07/21",
+    "type": [
+      "总力战"
+    ]
+  },
+  {
+    "title": "帐号经验值2倍",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/631158.png",
+    "status": "未开始",
+    "progress": "2025/07/18-2025/07/20",
+    "type": [
+      "资源翻倍"
+    ]
+  },
+  {
+    "title": "任务(Normal)3倍",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/7/303708.jpg",
+    "status": "未开始",
+    "progress": "2025/07/14-2025/07/18",
+    "type": [
+      "资源翻倍"
+    ]
+  },
+  {
+    "title": "帐号经验值2倍",
+    "description": "",
+    "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_780/h_439/829/43637/2025/6/7/340330.png",
+    "status": "未开始",
+    "progress": "2025/07/11-2025/07/13",
     "type": [
       "资源翻倍"
     ]
