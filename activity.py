@@ -144,7 +144,7 @@ def get_dynamic_cards():
                     "image_url": img_url,
                     "status": current_status,
                     "progress": progress_text,
-                    "type": activity_types  # 添加类型字段
+                    "tags": activity_types  # 添加类型字段
                 }
                 
                 # 根据状态分类
