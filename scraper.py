@@ -10,21 +10,24 @@ import time
 import os
 import traceback
 import datetime
+import re
 
-# 卡池类型分类规则
-def get_pool_type(title):
-    """根据卡池标题获取类型"""
-    if "精选" in title:
-        return "精选招募"
-    elif "特选" in title:
-        return "特选招募"
-    elif "庆典" in title or "纪念" in title:
-        return "庆典招募"
-    elif "复刻" in title:
-        return "复刻招募"
-    elif "招募" in title:
-        return "常规招募"
-    return "其他招募"
+def parse_time_delta(progress_text, status):
+    """解析时间增量文本为timedelta对象"""
+    # 匹配天和小时
+    days_match = re.search(r'(\d+)天', progress_text)
+    hours_match = re.search(r'(\d+)小时', progress_text)
+    
+    days = int(days_match.group(1)) if days_match else 0
+    hours = int(hours_match.group(1)) if hours_match else 0
+    
+    total_hours = days * 24 + hours
+    
+    if "将开始" in status or "进行中" in status:
+        return datetime.timedelta(hours=total_hours)
+    elif "已结束" in status:
+        return datetime.timedelta(hours=-total_hours)
+    return None
 
 def get_dynamic_cards():
     try:
@@ -100,17 +103,13 @@ def get_dynamic_cards():
                 progress_element = card.find_element(By.CSS_SELECTOR, ".progess-box .txt")
                 progress_text = progress_element.text
                 
-                # 获取卡池类型
-                pool_type = get_pool_type(title)
-                
                 card_data = {
                     "title": title,
                     "description": desc,
                     "image_url": img_url,
                     "status": current_status,
                     "tags": tags,
-                    "progress": progress_text,
-                    "type": pool_type
+                    "progress": progress_text
                 }
                 
                 # 根据状态分类
@@ -164,10 +163,30 @@ if __name__ == "__main__":
     results = get_dynamic_cards()
     
     # 获取当前时间并转换为东八区时间（UTC+8）
-    # 不使用pytz，使用标准库处理
     utc_now = datetime.datetime.utcnow()
     beijing_time = utc_now + datetime.timedelta(hours=8)
     crawl_time = beijing_time.isoformat(timespec='seconds') + "+08:00"
+    crawl_dt = datetime.datetime.fromisoformat(crawl_time)
+    
+    # 为每个卡池计算start_time和end_time
+    for pool in results:
+        pool["start_time"] = None
+        pool["end_time"] = None
+        
+        try:
+            delta = parse_time_delta(pool["progress"], pool["status"])
+            if delta:
+                if "将开始" in pool["status"]:
+                    start_dt = crawl_dt + delta
+                    pool["start_time"] = start_dt.replace(minute=0, second=0).isoformat(timespec='seconds') + "+08:00"
+                elif "进行中" in pool["status"]:
+                    end_dt = crawl_dt + delta
+                    pool["end_time"] = end_dt.replace(minute=0, second=0).isoformat(timespec='seconds') + "+08:00"
+                elif "已结束" in pool["status"]:
+                    end_dt = crawl_dt + delta
+                    pool["end_time"] = end_dt.replace(minute=0, second=0).isoformat(timespec='seconds') + "+08:00"
+        except Exception as e:
+            print(f"时间计算错误: {str(e)}")
     
     # 构建输出数据（包含顶层时间戳）
     output_data = {
@@ -184,4 +203,4 @@ if __name__ == "__main__":
     print(f"爬取时间(东八区): {crawl_time}")
     print(f"提取卡池数量: {len(results)}")
     if results:
-        print(f"第一个卡池: {results[0]['title']} - 类型: {results[0]['type']}")
+        print(f"第一个卡池: {results[0]['title']}")
