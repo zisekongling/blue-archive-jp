@@ -1,6 +1,40 @@
 {
-  "crawl_time": "2025-07-09T08:47:49+08:00",
+  "crawl_time": "2025-07-09T08:50:13+08:00",
   "pools": [
+    {
+      "title": "莉央",
+      "description": "莉央",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/890743.png",
+      "status": "将开始",
+      "tags": [
+        "FES限定"
+      ],
+      "progress": "6天1小时后开始UP",
+      "type": "其他招募"
+    },
+    {
+      "title": "宁瑠(制服)",
+      "description": "宁瑠(制服)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/186941.png",
+      "status": "将开始",
+      "tags": [
+        "FES限定"
+      ],
+      "progress": "6天1小时后开始UP",
+      "type": "其他招募"
+    },
+    {
+      "title": "花子(泳装)",
+      "description": "花子(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/7/144324.png",
+      "status": "将开始",
+      "tags": [
+        "FES限定",
+        "复刻"
+      ],
+      "progress": "6天1小时后开始UP",
+      "type": "其他招募"
+    },
     {
       "title": "圣亚",
       "description": "圣亚",
@@ -29,7 +63,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/462912.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有22小时48分钟未UP",
+      "progress": "已经有22小时51分钟未UP",
       "type": "其他招募"
     },
     {
@@ -38,7 +72,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/441369.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有22小时48分钟未UP",
+      "progress": "已经有22小时51分钟未UP",
       "type": "其他招募"
     },
     {
@@ -47,7 +81,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/274809.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有22小时48分钟未UP",
+      "progress": "已经有22小时51分钟未UP",
       "type": "其他招募"
     },
     {
@@ -56,7 +90,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/5/24/1114.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有22小时48分钟未UP",
+      "progress": "已经有22小时51分钟未UP",
       "type": "其他招募"
     }
   ]
