@@ -155,7 +155,7 @@ def get_dynamic_cards():
         upcoming_cards = []  # 未开启活动
         ended_cards = []  # 已结束活动
         
-        target_url = "https://www.gamekee.com/ba/huodong/17"  # 正确的活动URL
+        target_url = "https://www.gamekee.com/ba/huodong/15"  # 正确的活动URL
         logging.info(f"访问目标页面: {target_url}")
         driver.get(target_url)
         
