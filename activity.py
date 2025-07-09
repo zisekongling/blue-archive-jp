@@ -188,4 +188,4 @@ if __name__ == "__main__":
     
     logging.info(f"结果已保存至: {os.path.abspath(output_file)}")
     if results:
-        logging.info(f"第一张卡片: {results[0]['title']} - 类型: {results[0]['type']}")
+        logging.info(f"第一张卡片: {results[0]['title']} - 类型: {results[0]['tags']}")
