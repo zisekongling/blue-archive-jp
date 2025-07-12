@@ -1,49 +1,49 @@
 {
-  "crawl_time": "2025-07-11T09:00:00+08:00",
+  "crawl_time": "2025-07-12T10:00:00+08:00",
   "activities": [
     {
       "title": "[活动]夏莱总决算with联邦学生会",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/8/343099.jpg",
-      "progress": "还剩下10天23小时",
+      "progress": "还剩下9天23小时",
       "tags": [
         "活动"
       ],
       "start_time": null,
-      "end_time": "2025-07-22T08:00:00+08:00"
+      "end_time": "2025-07-22T09:00:00+08:00"
     },
     {
       "title": "制约解除决战「赛特的愤怒」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/5/25/607584.jpg",
-      "progress": "还剩下10天16小时",
+      "progress": "还剩下9天16小时",
       "tags": [
         "制约解除决战"
       ],
       "start_time": null,
-      "end_time": "2025-07-22T01:00:00+08:00"
+      "end_time": "2025-07-22T02:00:00+08:00"
     },
     {
       "title": "联合火力演习「护卫演习」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_875/h_489/829/43637/2025/6/8/556910.png",
-      "progress": "还剩下4天16小时",
+      "progress": "还剩下3天16小时",
       "tags": [
         "其他"
       ],
       "start_time": null,
-      "end_time": "2025-07-16T01:00:00+08:00"
+      "end_time": "2025-07-16T02:00:00+08:00"
     },
     {
       "title": "任务(Normal)2倍",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/5/25/563256.png",
-      "progress": "还剩下4天16小时",
+      "progress": "还剩下3天16小时",
       "tags": [
         "资源翻倍"
       ],
       "start_time": null,
-      "end_time": "2025-07-16T01:00:00+08:00"
+      "end_time": "2025-07-16T02:00:00+08:00"
     },
     {
       "title": "大决战「室外战・KAITEN FX Mk.0」",
