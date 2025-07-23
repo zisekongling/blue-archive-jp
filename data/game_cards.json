@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-07-22T10:01:38+08:00",
+  "crawl_time": "2025-07-23T10:02:30+08:00",
   "pools": [
     {
       "title": "莲见（泳装）",
@@ -9,7 +9,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下7天23小时",
+      "progress": "UP还剩下6天23小时",
       "start_time": null,
       "end_time": "2025-07-30T09:00:00+08:00+08:00"
     },
@@ -21,7 +21,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下7天23小时",
+      "progress": "UP还剩下6天23小时",
       "start_time": null,
       "end_time": "2025-07-30T09:00:00+08:00+08:00"
     },
@@ -31,9 +31,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/763327.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-22T10:00:00+08:00+08:00"
     },
     {
       "title": "咲（泳装）",
@@ -41,9 +41,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/274802.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-22T10:00:00+08:00+08:00"
     },
     {
       "title": "宫子（泳装）",
@@ -51,9 +51,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/553317.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-07-22T10:00:00+08:00+08:00"
     }
   ]
 }
