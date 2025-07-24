@@ -1,27 +1,27 @@
 {
-  "crawl_time": "2025-07-23T10:02:30+08:00",
+  "crawl_time": "2025-07-24T10:01:46+08:00",
   "pools": [
     {
       "title": "莲见（泳装）",
       "description": "莲见（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_146/h_190/829/43637/2025/6/21/983449.png",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/6/23/981202.png",
       "status": "进行中",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2025-07-30T09:00:00+08:00+08:00"
     },
     {
       "title": "圣娅（泳装）",
       "description": "圣娅（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_160/h_198/829/43637/2025/6/21/809057.png",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/6/23/820340.png",
       "status": "进行中",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2025-07-30T09:00:00+08:00+08:00"
     },
@@ -31,7 +31,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/763327.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2025-07-22T10:00:00+08:00+08:00"
     },
@@ -41,7 +41,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/274802.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2025-07-22T10:00:00+08:00+08:00"
     },
@@ -51,7 +51,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/6/8/553317.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2025-07-22T10:00:00+08:00+08:00"
     }
