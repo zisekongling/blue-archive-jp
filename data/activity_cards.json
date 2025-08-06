@@ -1,11 +1,11 @@
 {
-  "crawl_time": "2025-08-05T10:00:00+08:00",
+  "crawl_time": "2025-08-06T10:00:00+08:00",
   "activities": [
     {
       "title": "4.5 ANNIVERSARY 登录奖励",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/793114.jpg",
-      "progress": "还剩下14天23小时",
+      "progress": "还剩下13天23小时",
       "tags": [
         "其他"
       ],
@@ -16,7 +16,7 @@
       "title": "制约解除决战「TIPHARETH」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/572515.jpg",
-      "progress": "还剩下14天16小时",
+      "progress": "还剩下13天16小时",
       "tags": [
         "制约解除决战"
       ],
@@ -24,37 +24,26 @@
       "end_time": "2025-08-20T02:00:00+08:00"
     },
     {
-      "title": "[活动]夏空的约定",
+      "title": "[活动]Say-Bing!",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/21/259611.jpg",
-      "progress": "还剩下23小时52分钟",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/7/5/804886.jpg",
+      "progress": "还剩下6天23小时",
       "tags": [
         "活动"
       ],
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-13T09:00:00+08:00"
     },
     {
-      "title": "任务(Hard)3倍",
+      "title": "指名手配·学园交流会3倍",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/733774.jpg",
-      "progress": "还剩下16小时52分钟",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/375201.jpg",
+      "progress": "还剩下6天16小时",
       "tags": [
         "资源翻倍"
       ],
       "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "总力战「市街战・霍德」",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/577923.jpg",
-      "progress": "还剩下16小时52分钟",
-      "tags": [
-        "总力战"
-      ],
-      "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-13T02:00:00+08:00"
     },
     {
       "title": "任务(Hard)3倍",
@@ -65,6 +54,17 @@
         "资源翻倍"
       ],
       "start_time": "2025-08-16T00:00:00+08:00",
+      "end_time": "2025-08-19T00:00:00+08:00"
+    },
+    {
+      "title": "大决战 「市街战・薇娜」",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/7/5/556680.jpg",
+      "progress": "2025/08/13-2025/08/19",
+      "tags": [
+        "大决战"
+      ],
+      "start_time": "2025-08-13T00:00:00+08:00",
       "end_time": "2025-08-19T00:00:00+08:00"
     },
     {
@@ -101,14 +101,14 @@
       "end_time": "2025-08-16T00:00:00+08:00"
     },
     {
-      "title": "指名手配·学园交流会3倍",
+      "title": "合同火力演习「突破演习」",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/375201.jpg",
-      "progress": "2025/08/05-2025/08/12",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/5/643776.jpg",
+      "progress": "2025/08/06-2025/08/12",
       "tags": [
-        "资源翻倍"
+        "其他"
       ],
-      "start_time": "2025-08-05T00:00:00+08:00",
+      "start_time": "2025-08-06T00:00:00+08:00",
       "end_time": "2025-08-12T00:00:00+08:00"
     },
     {
@@ -121,6 +121,39 @@
       ],
       "start_time": "2025-08-08T00:00:00+08:00",
       "end_time": "2025-08-11T00:00:00+08:00"
+    },
+    {
+      "title": "[活动]夏空的约定",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/6/21/259611.jpg",
+      "progress": "2025/07/22-2025/08/06",
+      "tags": [
+        "活动"
+      ],
+      "start_time": "2025-07-22T00:00:00+08:00",
+      "end_time": "2025-08-06T00:00:00+08:00"
+    },
+    {
+      "title": "任务(Hard)3倍",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/733774.jpg",
+      "progress": "2025/08/02-2025/08/05",
+      "tags": [
+        "资源翻倍"
+      ],
+      "start_time": "2025-08-02T00:00:00+08:00",
+      "end_time": "2025-08-05T00:00:00+08:00"
+    },
+    {
+      "title": "总力战「市街战・霍德」",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/577923.jpg",
+      "progress": "2025/07/30-2025/08/05",
+      "tags": [
+        "总力战"
+      ],
+      "start_time": "2025-07-30T00:00:00+08:00",
+      "end_time": "2025-08-05T00:00:00+08:00"
     },
     {
       "title": "老师等级经验值2倍",
@@ -143,39 +176,6 @@
       ],
       "start_time": "2025-07-22T00:00:00+08:00",
       "end_time": "2025-07-30T00:00:00+08:00"
-    },
-    {
-      "title": "指名手配·日程3倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/608461.jpg",
-      "progress": "2025/07/21-2025/07/29",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-07-21T00:00:00+08:00",
-      "end_time": "2025-07-29T00:00:00+08:00"
-    },
-    {
-      "title": "任务(Normal)3倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/299243.jpg",
-      "progress": "2025/07/21-2025/07/29",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-07-21T00:00:00+08:00",
-      "end_time": "2025-07-29T00:00:00+08:00"
-    },
-    {
-      "title": "老师等级经验值2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/6/21/376552.jpg",
-      "progress": "2025/07/25-2025/07/27",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-07-25T00:00:00+08:00",
-      "end_time": "2025-07-27T00:00:00+08:00"
     }
   ]
 }
