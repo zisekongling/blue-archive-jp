@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-08-06T10:05:01+08:00",
+  "crawl_time": "2025-08-07T10:05:31+08:00",
   "pools": [
     {
       "title": "吹雪(泳装)",
@@ -7,7 +7,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/668770.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2025-08-13T09:00:00+08:00+08:00"
     },
@@ -17,7 +17,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/142594.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2025-08-13T09:00:00+08:00+08:00"
     },
@@ -30,9 +30,9 @@
         "限定",
         "FES限定"
       ],
-      "progress": "已经有5分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-06T10:00:00+08:00+08:00"
     },
     {
       "title": "未花（泳装）",
@@ -43,9 +43,9 @@
         "限定",
         "FES限定"
       ],
-      "progress": "已经有5分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-06T10:00:00+08:00+08:00"
     },
     {
       "title": "日奈（礼服）",
@@ -57,9 +57,9 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "已经有5分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-06T10:00:00+08:00+08:00"
     }
   ]
 }
