@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-08-16T09:50:52+08:00",
+  "crawl_time": "2025-08-17T10:02:00+08:00",
   "pools": [
     {
       "title": "千秋",
@@ -7,7 +7,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/260456.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下4天0小时",
+      "progress": "UP还剩下2天23小时",
       "start_time": null,
       "end_time": "2025-08-20T09:00:00+08:00+08:00"
     },
@@ -17,7 +17,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/733848.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下4天0小时",
+      "progress": "UP还剩下2天23小时",
       "start_time": null,
       "end_time": "2025-08-20T09:00:00+08:00+08:00"
     },
@@ -30,7 +30,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下4天0小时",
+      "progress": "UP还剩下2天23小时",
       "start_time": null,
       "end_time": "2025-08-20T09:00:00+08:00+08:00"
     },
@@ -43,7 +43,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下4天0小时",
+      "progress": "UP还剩下2天23小时",
       "start_time": null,
       "end_time": "2025-08-20T09:00:00+08:00+08:00"
     },
@@ -53,7 +53,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/668770.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2天23小时未UP",
+      "progress": "已经有4天0小时未UP",
       "start_time": null,
       "end_time": "2025-08-13T10:00:00+08:00+08:00"
     },
@@ -63,7 +63,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/142594.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2天23小时未UP",
+      "progress": "已经有4天0小时未UP",
       "start_time": null,
       "end_time": "2025-08-13T10:00:00+08:00+08:00"
     }
