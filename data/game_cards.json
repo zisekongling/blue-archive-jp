@@ -1,71 +1,71 @@
 {
-  "crawl_time": "2025-08-20T09:48:13+08:00",
+  "crawl_time": "2025-08-21T09:47:10+08:00",
   "pools": [
+    {
+      "title": "鹿江",
+      "description": "鹿江",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_190/h_216/829/43637/2025/7/20/972404.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下13天0小时",
+      "start_time": null,
+      "end_time": "2025-09-03T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "绘里",
+      "description": "绘里",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_174/h_204/829/43637/2025/7/20/517509.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下13天0小时",
+      "start_time": null,
+      "end_time": "2025-09-03T09:00:00+08:00+08:00"
+    },
     {
       "title": "千秋",
       "description": "千秋",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/260456.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下11分钟",
+      "progress": "已经有23小时47分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
     {
       "title": "康娜",
       "description": "康娜",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/733848.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下11分钟",
+      "progress": "已经有23小时47分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
     {
       "title": "渚",
       "description": "渚",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/917271.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下11分钟",
+      "progress": "已经有23小时47分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
     {
       "title": "时",
       "description": "时",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/586836.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下11分钟",
+      "progress": "已经有23小时47分钟未UP",
       "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "吹雪(泳装)",
-      "description": "吹雪(泳装)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/668770.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有6天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-08-13T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "康娜(泳装)",
-      "description": "康娜(泳装)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/5/142594.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有6天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-08-13T10:00:00+08:00+08:00"
+      "end_time": "2025-08-20T10:00:00+08:00+08:00"
     }
   ]
 }
