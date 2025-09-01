@@ -1,60 +1,49 @@
 {
-  "crawl_time": "2025-08-31T09:00:00+08:00",
+  "crawl_time": "2025-09-01T09:00:00+08:00",
   "activities": [
     {
       "title": "制约解除决战「可库玛」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/569915.jpg",
-      "progress": "还剩下23天17小时",
+      "progress": "还剩下22天16小时",
       "tags": [
         "制约解除决战"
       ],
       "start_time": null,
-      "end_time": "2025-09-24T02:00:00+08:00"
+      "end_time": "2025-09-24T01:00:00+08:00"
     },
     {
       "title": "[活动]我们是神秘学研究会！ ～学院中的异象与古老咒文～",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/780886.jpg",
-      "progress": "还剩下3天0小时",
+      "progress": "还剩下1天23小时",
       "tags": [
         "活动"
       ],
       "start_time": null,
-      "end_time": "2025-09-03T09:00:00+08:00"
+      "end_time": "2025-09-03T08:00:00+08:00"
     },
     {
       "title": "总力战 「屋外战・佩洛洛斯拉」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/577787.jpg",
-      "progress": "还剩下2天17小时",
+      "progress": "还剩下1天16小时",
       "tags": [
         "总力战"
       ],
       "start_time": null,
-      "end_time": "2025-09-03T02:00:00+08:00"
+      "end_time": "2025-09-03T01:00:00+08:00"
     },
     {
       "title": "任务(Normal)2倍",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/330966.jpg",
-      "progress": "还剩下2天17小时",
+      "progress": "还剩下1天16小时",
       "tags": [
         "资源翻倍"
       ],
       "start_time": null,
-      "end_time": "2025-09-03T02:00:00+08:00"
-    },
-    {
-      "title": "老师等级经验值2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/67423.jpg",
-      "progress": "还剩下17小时8分钟",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-03T01:00:00+08:00"
     },
     {
       "title": "特别依赖2倍",
@@ -88,6 +77,17 @@
       ],
       "start_time": "2025-09-02T00:00:00+08:00",
       "end_time": "2025-09-09T00:00:00+08:00"
+    },
+    {
+      "title": "老师等级经验值2倍",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/67423.jpg",
+      "progress": "2025/08/29-2025/08/31",
+      "tags": [
+        "资源翻倍"
+      ],
+      "start_time": "2025-08-29T00:00:00+08:00",
+      "end_time": "2025-08-31T00:00:00+08:00"
     },
     {
       "title": "指名手配2倍",
@@ -131,17 +131,6 @@
         "资源翻倍"
       ],
       "start_time": "2025-08-16T00:00:00+08:00",
-      "end_time": "2025-08-19T00:00:00+08:00"
-    },
-    {
-      "title": "大决战 「市街战・薇娜」",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/7/5/556680.jpg",
-      "progress": "2025/08/13-2025/08/19",
-      "tags": [
-        "大决战"
-      ],
-      "start_time": "2025-08-13T00:00:00+08:00",
       "end_time": "2025-08-19T00:00:00+08:00"
     }
   ]
