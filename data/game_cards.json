@@ -1,15 +1,71 @@
 {
-  "crawl_time": "2025-09-02T09:46:07+08:00",
+  "crawl_time": "2025-09-03T09:39:17+08:00",
   "pools": [
+    {
+      "title": "野宫(泳装)",
+      "description": "野宫(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/568115.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "21分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "白子(泳装)",
+      "description": "白子(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/849264.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "21分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "日和(泳装)",
+      "description": "日和(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/404894.png",
+      "status": "将开始",
+      "tags": [
+        "限定",
+        "复刻"
+      ],
+      "progress": "21分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "纱织(泳装)",
+      "description": "纱织(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/182986.png",
+      "status": "将开始",
+      "tags": [
+        "限定",
+        "复刻"
+      ],
+      "progress": "21分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "美咲(泳装)",
+      "description": "美咲(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_188/h_224/829/43637/2025/8/2/604753.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "21分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
     {
       "title": "鹿江",
       "description": "鹿江",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/7/21/257943.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下20分钟",
       "start_time": null,
-      "end_time": "2025-09-03T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "绘里",
@@ -17,9 +73,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/7/21/758170.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下20分钟",
       "start_time": null,
-      "end_time": "2025-09-03T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "千秋",
@@ -27,7 +83,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/260456.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
@@ -37,7 +93,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/7/12/733848.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
@@ -50,7 +106,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-08-20T10:00:00+08:00+08:00"
     },
@@ -63,7 +119,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-08-20T10:00:00+08:00+08:00"
     }
