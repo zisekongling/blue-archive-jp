@@ -1,11 +1,11 @@
 {
-  "crawl_time": "2025-09-09T09:00:00+08:00",
+  "crawl_time": "2025-09-10T09:00:00+08:00",
   "activities": [
     {
       "title": "制约解除决战「可库玛」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/569915.jpg",
-      "progress": "还剩下14天17小时",
+      "progress": "还剩下13天17小时",
       "tags": [
         "制约解除决战"
       ],
@@ -16,7 +16,7 @@
       "title": "[活动]Sheside outside",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/8/2/898551.jpg",
-      "progress": "还剩下8天0小时",
+      "progress": "还剩下7天0小时",
       "tags": [
         "活动"
       ],
@@ -24,26 +24,15 @@
       "end_time": "2025-09-17T09:00:00+08:00"
     },
     {
-      "title": "合同火力演习「射击演习」",
+      "title": "任务(Hard)2倍",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/2/961347.jpg",
-      "progress": "还剩下17小时15分钟",
-      "tags": [
-        "其他"
-      ],
-      "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "日程·学园交流会2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/37967.jpg",
-      "progress": "还剩下17小时15分钟",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/480506.jpg",
+      "progress": "还剩下6天16小时",
       "tags": [
         "资源翻倍"
       ],
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-17T01:00:00+08:00"
     },
     {
       "title": "引导任务「阿里乌斯自治区特別授课」",
@@ -79,15 +68,26 @@
       "end_time": "2025-09-16T00:00:00+08:00"
     },
     {
-      "title": "任务(Hard)2倍",
+      "title": "合同火力演习「射击演习」",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/480506.jpg",
-      "progress": "2025/09/09-2025/09/16",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/2/961347.jpg",
+      "progress": "2025/09/03-2025/09/09",
+      "tags": [
+        "其他"
+      ],
+      "start_time": "2025-09-03T00:00:00+08:00",
+      "end_time": "2025-09-09T00:00:00+08:00"
+    },
+    {
+      "title": "日程·学园交流会2倍",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/37967.jpg",
+      "progress": "2025/09/02-2025/09/09",
       "tags": [
         "资源翻倍"
       ],
-      "start_time": "2025-09-09T00:00:00+08:00",
-      "end_time": "2025-09-16T00:00:00+08:00"
+      "start_time": "2025-09-02T00:00:00+08:00",
+      "end_time": "2025-09-09T00:00:00+08:00"
     },
     {
       "title": "[活动]我们是神秘学研究会！ ～学院中的异象与古老咒文～",
@@ -121,28 +121,6 @@
       ],
       "start_time": "2025-08-26T00:00:00+08:00",
       "end_time": "2025-09-02T00:00:00+08:00"
-    },
-    {
-      "title": "老师等级经验值2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/67423.jpg",
-      "progress": "2025/08/29-2025/08/31",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-08-29T00:00:00+08:00",
-      "end_time": "2025-08-31T00:00:00+08:00"
-    },
-    {
-      "title": "指名手配2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/7/20/377615.jpg",
-      "progress": "2025/08/19-2025/08/26",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-08-19T00:00:00+08:00",
-      "end_time": "2025-08-26T00:00:00+08:00"
     }
   ]
 }
