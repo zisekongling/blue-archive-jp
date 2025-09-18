@@ -1,117 +1,97 @@
 {
-  "crawl_time": "2025-09-17T09:40:02+08:00",
+  "crawl_time": "2025-09-18T09:40:39+08:00",
   "pools": [
     {
       "title": "朱音(兔女郎)",
       "description": "朱音(兔女郎)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/537699.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "20分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-24T09:00:00+08:00+08:00"
     },
     {
       "title": "花凛(兔女郎)",
       "description": "花凛(兔女郎)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/31772.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "20分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-24T09:00:00+08:00+08:00"
     },
     {
       "title": "妮露(兔女郎)",
       "description": "妮露(兔女郎)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/185414.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "20分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-24T09:00:00+08:00+08:00"
     },
     {
       "title": "野宫(泳装)",
       "description": "野宫(泳装)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/568115.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下19分钟",
+      "progress": "已经有23小时41分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-17T10:00:00+08:00+08:00"
     },
     {
       "title": "白子(泳装)",
       "description": "白子(泳装)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/849264.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下19分钟",
+      "progress": "已经有23小时41分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-17T10:00:00+08:00+08:00"
     },
     {
       "title": "日和(泳装)",
       "description": "日和(泳装)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/404894.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下19分钟",
+      "progress": "已经有23小时41分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-17T10:00:00+08:00+08:00"
     },
     {
       "title": "纱织(泳装)",
       "description": "纱织(泳装)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/2/182986.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下19分钟",
+      "progress": "已经有23小时41分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-09-17T10:00:00+08:00+08:00"
     },
     {
       "title": "美咲(泳装)",
       "description": "美咲(泳装)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/3/620376.png",
-      "status": "进行中",
-      "tags": [],
-      "progress": "UP还剩下19分钟",
-      "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "鹿江",
-      "description": "鹿江",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/7/21/257943.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13天23小时未UP",
+      "progress": "已经有23小时41分钟未UP",
       "start_time": null,
-      "end_time": "2025-09-03T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "绘里",
-      "description": "绘里",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/7/21/758170.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-09-03T10:00:00+08:00+08:00"
+      "end_time": "2025-09-17T10:00:00+08:00+08:00"
     }
   ]
 }
