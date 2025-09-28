@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-09-27T09:37:46+08:00",
+  "crawl_time": "2025-09-28T09:50:29+08:00",
   "pools": [
     {
       "title": "皋月",
@@ -7,7 +7,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/43637/2025/8/25/325098.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下11天0小时",
+      "progress": "UP还剩下10天0小时",
       "start_time": null,
       "end_time": "2025-10-08T09:00:00+08:00+08:00"
     },
@@ -17,7 +17,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/43637/2025/8/25/450833.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下11天0小时",
+      "progress": "UP还剩下10天0小时",
       "start_time": null,
       "end_time": "2025-10-08T09:00:00+08:00+08:00"
     },
@@ -27,7 +27,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/236746/2025/8/25/794472.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下11天0小时",
+      "progress": "UP还剩下10天0小时",
       "start_time": null,
       "end_time": "2025-10-08T09:00:00+08:00+08:00"
     },
@@ -37,7 +37,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/537699.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有2天23小时未UP",
+      "progress": "已经有3天23小时未UP",
       "start_time": null,
       "end_time": "2025-09-24T10:00:00+08:00+08:00"
     },
@@ -50,7 +50,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有2天23小时未UP",
+      "progress": "已经有3天23小时未UP",
       "start_time": null,
       "end_time": "2025-09-24T10:00:00+08:00+08:00"
     },
@@ -63,7 +63,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有2天23小时未UP",
+      "progress": "已经有3天23小时未UP",
       "start_time": null,
       "end_time": "2025-09-24T10:00:00+08:00+08:00"
     }
