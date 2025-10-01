@@ -1,11 +1,11 @@
 {
-  "crawl_time": "2025-09-30T09:00:00+08:00",
+  "crawl_time": "2025-10-01T09:00:00+08:00",
   "activities": [
     {
       "title": "引导任务「阿里乌斯自治区特別授课」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/2/425247.jpg",
-      "progress": "还剩下22天0小时",
+      "progress": "还剩下21天0小时",
       "tags": [
         "其他"
       ],
@@ -16,7 +16,7 @@
       "title": "制约解除决战「赛特的愤怒」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/800230.jpg",
-      "progress": "还剩下21天17小时",
+      "progress": "还剩下20天17小时",
       "tags": [
         "制约解除决战"
       ],
@@ -27,7 +27,7 @@
       "title": "[活动]为了谁的艺术～虚伪装饰的绘画与美学的去向～",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/8/23/612371.jpg",
-      "progress": "还剩下8天0小时",
+      "progress": "还剩下7天0小时",
       "tags": [
         "活动"
       ],
@@ -35,15 +35,15 @@
       "end_time": "2025-10-08T09:00:00+08:00"
     },
     {
-      "title": "指名手配·学院交流会2倍",
+      "title": "任务(Normal)2倍",
       "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/945086.jpg",
-      "progress": "还剩下17小时19分钟",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/244724.jpg",
+      "progress": "还剩下6天17小时",
       "tags": [
         "资源翻倍"
       ],
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-10-08T02:00:00+08:00"
     },
     {
       "title": "[迷你活动]夏莱总决算with联邦学生会",
@@ -134,17 +134,6 @@
       "end_time": "2025-10-07T00:00:00+08:00"
     },
     {
-      "title": "任务(Normal)2倍",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/244724.jpg",
-      "progress": "2025/09/30-2025/10/07",
-      "tags": [
-        "资源翻倍"
-      ],
-      "start_time": "2025-09-30T00:00:00+08:00",
-      "end_time": "2025-10-07T00:00:00+08:00"
-    },
-    {
       "title": "老师等级经验值2倍",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/413623.jpg",
@@ -154,6 +143,17 @@
       ],
       "start_time": "2025-10-03T00:00:00+08:00",
       "end_time": "2025-10-05T00:00:00+08:00"
+    },
+    {
+      "title": "指名手配·学院交流会2倍",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/945086.jpg",
+      "progress": "2025/09/23-2025/09/30",
+      "tags": [
+        "资源翻倍"
+      ],
+      "start_time": "2025-09-23T00:00:00+08:00",
+      "end_time": "2025-09-30T00:00:00+08:00"
     },
     {
       "title": "老师等级经验值2倍",
@@ -198,17 +198,6 @@
       ],
       "start_time": "2025-09-03T00:00:00+08:00",
       "end_time": "2025-09-17T00:00:00+08:00"
-    },
-    {
-      "title": "大决战 「屋外战・凯赛德」",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/2/530851.jpg",
-      "progress": "2025/09/10-2025/09/16",
-      "tags": [
-        "大决战"
-      ],
-      "start_time": "2025-09-10T00:00:00+08:00",
-      "end_time": "2025-09-16T00:00:00+08:00"
     }
   ]
 }
