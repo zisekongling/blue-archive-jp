@@ -1,11 +1,11 @@
 {
-  "crawl_time": "2025-10-01T09:00:00+08:00",
+  "crawl_time": "2025-10-02T09:00:00+08:00",
   "activities": [
     {
       "title": "引导任务「阿里乌斯自治区特別授课」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/2/425247.jpg",
-      "progress": "还剩下21天0小时",
+      "progress": "还剩下20天0小时",
       "tags": [
         "其他"
       ],
@@ -16,7 +16,7 @@
       "title": "制约解除决战「赛特的愤怒」",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/800230.jpg",
-      "progress": "还剩下20天17小时",
+      "progress": "还剩下19天17小时",
       "tags": [
         "制约解除决战"
       ],
@@ -27,7 +27,7 @@
       "title": "[活动]为了谁的艺术～虚伪装饰的绘画与美学的去向～",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1280/h_720/829/43637/2025/8/23/612371.jpg",
-      "progress": "还剩下7天0小时",
+      "progress": "还剩下6天0小时",
       "tags": [
         "活动"
       ],
@@ -35,10 +35,21 @@
       "end_time": "2025-10-08T09:00:00+08:00"
     },
     {
+      "title": "总力战 「屋外战・盖布拉」",
+      "description": "",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/772541.jpg",
+      "progress": "还剩下5天17小时",
+      "tags": [
+        "总力战"
+      ],
+      "start_time": null,
+      "end_time": "2025-10-08T02:00:00+08:00"
+    },
+    {
       "title": "任务(Normal)2倍",
       "description": "",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/244724.jpg",
-      "progress": "还剩下6天17小时",
+      "progress": "还剩下5天17小时",
       "tags": [
         "资源翻倍"
       ],
@@ -121,17 +132,6 @@
       ],
       "start_time": "2025-10-10T00:00:00+08:00",
       "end_time": "2025-10-13T00:00:00+08:00"
-    },
-    {
-      "title": "总力战 「屋外战・盖布拉」",
-      "description": "",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1920/h_1080/829/43637/2025/8/23/772541.jpg",
-      "progress": "2025/10/01-2025/10/07",
-      "tags": [
-        "总力战"
-      ],
-      "start_time": "2025-10-01T00:00:00+08:00",
-      "end_time": "2025-10-07T00:00:00+08:00"
     },
     {
       "title": "老师等级经验值2倍",
