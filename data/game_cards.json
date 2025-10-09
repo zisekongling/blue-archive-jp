@@ -1,71 +1,65 @@
 {
-  "crawl_time": "2025-10-08T09:41:29+08:00",
+  "crawl_time": "2025-10-09T09:41:51+08:00",
   "pools": [
+    {
+      "title": "律",
+      "description": "律",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/9/8/853349.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下6天0小时",
+      "start_time": null,
+      "end_time": "2025-10-15T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "美游",
+      "description": "美游",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/9/8/925585.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下6天0小时",
+      "start_time": null,
+      "end_time": "2025-10-15T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "时雨",
+      "description": "时雨",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/9/8/89024.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下6天0小时",
+      "start_time": null,
+      "end_time": "2025-10-15T09:00:00+08:00+08:00"
+    },
     {
       "title": "皋月",
       "description": "皋月",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/43637/2025/8/25/325098.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下17分钟",
+      "progress": "已经有23小时42分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-10-08T10:00:00+08:00+08:00"
     },
     {
       "title": "冬",
       "description": "冬",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/43637/2025/8/25/450833.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [],
-      "progress": "UP还剩下17分钟",
+      "progress": "已经有23小时42分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-10-08T10:00:00+08:00+08:00"
     },
     {
       "title": "美代",
       "description": "美代",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_219/h_240/829/236746/2025/8/25/794472.png",
-      "status": "进行中",
-      "tags": [],
-      "progress": "UP还剩下17分钟",
-      "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "朱音(兔女郎)",
-      "description": "朱音(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/537699.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有13天23小时未UP",
+      "progress": "已经有23小时42分钟未UP",
       "start_time": null,
-      "end_time": "2025-09-24T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "花凛(兔女郎)",
-      "description": "花凛(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/31772.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-09-24T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "妮露(兔女郎)",
-      "description": "妮露(兔女郎)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/8/16/185414.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-09-24T10:00:00+08:00+08:00"
+      "end_time": "2025-10-08T10:00:00+08:00+08:00"
     }
   ]
 }
