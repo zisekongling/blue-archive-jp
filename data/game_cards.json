@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2025-10-26T09:51:11+08:00",
+  "crawl_time": "2025-10-27T09:55:15+08:00",
   "pools": [
     {
       "title": "铃美（魔法）",
@@ -9,7 +9,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下10天0小时",
+      "progress": "UP还剩下9天0小时",
       "start_time": null,
       "end_time": "2025-11-05T09:00:00+08:00+08:00"
     },
@@ -21,7 +21,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下10天0小时",
+      "progress": "UP还剩下9天0小时",
       "start_time": null,
       "end_time": "2025-11-05T09:00:00+08:00+08:00"
     },
@@ -31,7 +31,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/9/15/202138.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有3天23小时未UP",
+      "progress": "已经有4天23小时未UP",
       "start_time": null,
       "end_time": "2025-10-22T10:00:00+08:00+08:00"
     },
@@ -44,7 +44,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有3天23小时未UP",
+      "progress": "已经有4天23小时未UP",
       "start_time": null,
       "end_time": "2025-10-22T10:00:00+08:00+08:00"
     },
@@ -57,7 +57,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有3天23小时未UP",
+      "progress": "已经有4天23小时未UP",
       "start_time": null,
       "end_time": "2025-10-22T10:00:00+08:00+08:00"
     }
