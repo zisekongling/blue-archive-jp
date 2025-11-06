@@ -1,115 +1,79 @@
 {
-  "crawl_time": "2025-11-05T09:49:50+08:00",
+  "crawl_time": "2025-11-06T09:49:56+08:00",
   "pools": [
     {
       "title": "萌绘",
       "description": "萌绘",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/640872.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "10分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-12T09:00:00+08:00+08:00"
     },
     {
       "title": "咲",
       "description": "咲",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/291731.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "10分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-12T09:00:00+08:00+08:00"
     },
     {
       "title": "宫子",
       "description": "宫子",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/871852.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "10分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-12T09:00:00+08:00+08:00"
     },
     {
       "title": "玛丽娜(旗袍)",
       "description": "玛丽娜(旗袍)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/458071.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "10分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-12T09:00:00+08:00+08:00"
     },
     {
       "title": "巴(旗袍)",
       "description": "巴(旗袍)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/679294.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [],
-      "progress": "10分钟后开始UP",
+      "progress": "UP还剩下6天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-12T09:00:00+08:00+08:00"
     },
     {
       "title": "铃美（魔法）",
       "description": "铃美（魔法）",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/9/23/189104.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下9分钟",
+      "progress": "已经有23小时50分钟未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2025-11-05T10:00:00+08:00+08:00"
     },
     {
       "title": "玲纱（魔法）",
       "description": "玲纱（魔法）",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/43637/2025/9/23/341015.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下9分钟",
+      "progress": "已经有23小时50分钟未UP",
       "start_time": null,
-      "end_time": null
-    },
-    {
-      "title": "三森（泳装）",
-      "description": "三森（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/9/15/202138.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-10-22T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "伊织（泳装）",
-      "description": "伊织（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/9/15/822704.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-10-22T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "日奈（泳装）",
-      "description": "日奈（泳装）",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/9/15/478281.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有13天23小时未UP",
-      "start_time": null,
-      "end_time": "2025-10-22T10:00:00+08:00+08:00"
+      "end_time": "2025-11-05T10:00:00+08:00+08:00"
     }
   ]
 }
