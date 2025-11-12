@@ -1,15 +1,71 @@
 {
-  "crawl_time": "2025-11-11T09:51:11+08:00",
+  "crawl_time": "2025-11-12T09:50:01+08:00",
   "pools": [
+    {
+      "title": "忧(泳装)",
+      "description": "忧(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/10/11/641345.png",
+      "status": "将开始",
+      "tags": [
+        "限定",
+        "复刻"
+      ],
+      "progress": "10分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "日向(泳装)",
+      "description": "日向(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/10/11/627543.png",
+      "status": "将开始",
+      "tags": [
+        "限定",
+        "复刻"
+      ],
+      "progress": "10分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "昴",
+      "description": "昴",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/10/11/98090.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "10分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "玲纱",
+      "description": "玲纱",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/10/11/283548.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "10分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "美祢",
+      "description": "美祢",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/10/11/646697.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "10分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
     {
       "title": "萌绘",
       "description": "萌绘",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/640872.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下9分钟",
       "start_time": null,
-      "end_time": "2025-11-12T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "咲",
@@ -17,9 +73,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/291731.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下9分钟",
       "start_time": null,
-      "end_time": "2025-11-12T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "宫子",
@@ -27,9 +83,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/871852.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下9分钟",
       "start_time": null,
-      "end_time": "2025-11-12T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "玛丽娜(旗袍)",
@@ -37,9 +93,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/458071.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下9分钟",
       "start_time": null,
-      "end_time": "2025-11-12T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "巴(旗袍)",
@@ -47,9 +103,9 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/43637/2025/10/4/679294.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下9分钟",
       "start_time": null,
-      "end_time": "2025-11-12T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "铃美（魔法）",
@@ -59,7 +115,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-11-05T10:00:00+08:00+08:00"
     },
@@ -71,7 +127,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-11-05T10:00:00+08:00+08:00"
     }
