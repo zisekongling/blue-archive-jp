@@ -1,6 +1,54 @@
 {
-  "crawl_time": "2025-12-16T09:57:34+08:00",
+  "crawl_time": "2025-12-17T09:52:44+08:00",
   "pools": [
+    {
+      "title": "芹香(泳装)",
+      "description": "芹香(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/16/418172.png",
+      "status": "将开始",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "7分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "时雨(温泉)",
+      "description": "时雨(温泉)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/16/396980.png",
+      "status": "将开始",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "7分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "实梨",
+      "description": "实梨",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/16/603337.png",
+      "status": "将开始",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "7分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "梅露",
+      "description": "梅露",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/16/978337.png",
+      "status": "将开始",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "7分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
     {
       "title": "玛丽(偶像)",
       "description": "玛丽(偶像)",
@@ -10,9 +58,9 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下6分钟",
       "start_time": null,
-      "end_time": "2025-12-17T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "樱子(偶像)",
@@ -23,9 +71,9 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下6分钟",
       "start_time": null,
-      "end_time": "2025-12-17T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "果穗",
@@ -35,9 +83,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下6分钟",
       "start_time": null,
-      "end_time": "2025-12-17T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "和纱",
@@ -47,9 +95,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下6分钟",
       "start_time": null,
-      "end_time": "2025-12-17T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "八云",
@@ -57,7 +105,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/10/19/547828.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-03T10:00:00+08:00+08:00"
     },
@@ -67,7 +115,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/10/19/457098.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-03T10:00:00+08:00+08:00"
     }
