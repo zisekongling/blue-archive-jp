@@ -1,6 +1,26 @@
 {
-  "crawl_time": "2025-12-23T09:57:43+08:00",
+  "crawl_time": "2025-12-24T09:55:36+08:00",
   "pools": [
+    {
+      "title": "满(礼服)",
+      "description": "满(礼服)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/23/246848.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "4分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "月咏(礼服)",
+      "description": "月咏(礼服)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/23/795398.png",
+      "status": "将开始",
+      "tags": [],
+      "progress": "4分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
     {
       "title": "芹香(泳装)",
       "description": "芹香(泳装)",
@@ -9,9 +29,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下3分钟",
       "start_time": null,
-      "end_time": "2025-12-24T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "时雨(温泉)",
@@ -21,9 +41,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下3分钟",
       "start_time": null,
-      "end_time": "2025-12-24T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "实梨",
@@ -33,9 +53,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下3分钟",
       "start_time": null,
-      "end_time": "2025-12-24T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "梅露",
@@ -45,9 +65,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下3分钟",
       "start_time": null,
-      "end_time": "2025-12-24T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "玛丽(偶像)",
@@ -58,7 +78,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-17T10:00:00+08:00+08:00"
     },
@@ -71,7 +91,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-17T10:00:00+08:00+08:00"
     },
@@ -83,7 +103,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-17T10:00:00+08:00+08:00"
     },
@@ -95,7 +115,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有5天23小时未UP",
+      "progress": "已经有6天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-17T10:00:00+08:00+08:00"
     }
