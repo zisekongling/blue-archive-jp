@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-01-02T10:00:23+08:00",
+  "crawl_time": "2026-01-03T09:54:16+08:00",
   "pools": [
     {
       "title": "若藻",
@@ -10,7 +10,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下4天0小时",
       "start_time": null,
       "end_time": "2026-01-07T09:00:00+08:00+08:00"
     },
@@ -23,7 +23,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下4天0小时",
       "start_time": null,
       "end_time": "2026-01-07T09:00:00+08:00+08:00"
     },
@@ -36,7 +36,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下4天0小时",
       "start_time": null,
       "end_time": "2026-01-07T09:00:00+08:00+08:00"
     },
@@ -46,7 +46,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/77549.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下4天0小时",
       "start_time": null,
       "end_time": "2026-01-07T09:00:00+08:00+08:00"
     },
@@ -56,7 +56,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/28071.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下4天0小时",
       "start_time": null,
       "end_time": "2026-01-07T09:00:00+08:00+08:00"
     },
@@ -68,7 +68,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有9天0小时未UP",
+      "progress": "已经有9天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-24T10:00:00+08:00+08:00"
     },
@@ -80,7 +80,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有9天0小时未UP",
+      "progress": "已经有9天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-24T10:00:00+08:00+08:00"
     },
@@ -92,7 +92,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有9天0小时未UP",
+      "progress": "已经有9天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-24T10:00:00+08:00+08:00"
     },
@@ -104,7 +104,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有9天0小时未UP",
+      "progress": "已经有9天23小时未UP",
       "start_time": null,
       "end_time": "2025-12-24T10:00:00+08:00+08:00"
     }
