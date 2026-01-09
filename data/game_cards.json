@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-01-08T10:00:23+08:00",
+  "crawl_time": "2026-01-09T10:01:28+08:00",
   "pools": [
     {
       "title": "丽情",
@@ -9,7 +9,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下11天23小时",
+      "progress": "UP还剩下10天23小时",
       "start_time": null,
       "end_time": "2026-01-20T09:00:00+08:00+08:00"
     },
@@ -21,7 +21,7 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下11天23小时",
+      "progress": "UP还剩下10天23小时",
       "start_time": null,
       "end_time": "2026-01-20T09:00:00+08:00+08:00"
     },
@@ -34,7 +34,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下11天23小时",
+      "progress": "UP还剩下10天23小时",
       "start_time": null,
       "end_time": "2026-01-20T09:00:00+08:00+08:00"
     },
@@ -47,7 +47,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下11天23小时",
+      "progress": "UP还剩下10天23小时",
       "start_time": null,
       "end_time": "2026-01-20T09:00:00+08:00+08:00"
     },
@@ -60,7 +60,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-07T10:00:00+08:00+08:00"
     },
@@ -73,7 +73,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-07T10:00:00+08:00+08:00"
     },
@@ -86,7 +86,7 @@
         "复刻",
         "回忆招募"
       ],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-07T10:00:00+08:00+08:00"
     },
@@ -96,7 +96,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/77549.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-07T10:00:00+08:00+08:00"
     },
@@ -106,7 +106,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/28071.png",
       "status": "已结束",
       "tags": [],
-      "progress": "已经有1天0小时未UP",
+      "progress": "已经有2天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-07T10:00:00+08:00+08:00"
     }
