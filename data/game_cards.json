@@ -1,114 +1,79 @@
 {
-  "crawl_time": "2026-01-19T10:06:56+08:00",
+  "crawl_time": "2026-01-20T10:01:57+08:00",
   "pools": [
+    {
+      "title": "日鞠(临战)",
+      "description": "日鞠(临战)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_252/h_204/829/399789/2026/0/19/854493.png",
+      "status": "进行中",
+      "tags": [
+        "限定"
+      ],
+      "progress": "UP还剩下8天23小时",
+      "start_time": null,
+      "end_time": "2026-01-29T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "莉音(临战)",
+      "description": "莉音(临战)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_252/h_204/829/399789/2026/0/19/170374.png",
+      "status": "进行中",
+      "tags": [
+        "限定"
+      ],
+      "progress": "UP还剩下8天23小时",
+      "start_time": null,
+      "end_time": "2026-01-29T09:00:00+08:00+08:00"
+    },
     {
       "title": "丽情",
       "description": "丽情",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/5/810627.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下23小时52分钟",
+      "progress": "已经有2分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-20T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "妃咲",
       "description": "妃咲",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/5/424275.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下23小时52分钟",
+      "progress": "已经有2分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-20T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "优香(体操服)",
       "description": "优香(体操服)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/6/750925.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下23小时52分钟",
+      "progress": "已经有2分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-20T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "玛丽(体操服)",
       "description": "玛丽(体操服)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/6/162190.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下23小时52分钟",
+      "progress": "已经有2分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-20T09:00:00+08:00+08:00"
-    },
-    {
-      "title": "若藻",
-      "description": "若藻",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/27/404846.png",
-      "status": "已结束",
-      "tags": [
-        "复刻",
-        "回忆招募"
-      ],
-      "progress": "已经有12天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-07T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "星野(泳装)",
-      "description": "星野(泳装)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/27/67777.png",
-      "status": "已结束",
-      "tags": [
-        "复刻",
-        "回忆招募"
-      ],
-      "progress": "已经有12天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-07T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "未花",
-      "description": "未花",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2025/11/27/217135.png",
-      "status": "已结束",
-      "tags": [
-        "复刻",
-        "回忆招募"
-      ],
-      "progress": "已经有12天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-07T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "满(礼服)",
-      "description": "满(礼服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/77549.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有12天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-07T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "月咏(礼服)",
-      "description": "月咏(礼服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/399789/2025/11/24/28071.png",
-      "status": "已结束",
-      "tags": [],
-      "progress": "已经有12天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-07T10:00:00+08:00+08:00"
+      "end_time": null
     }
   ]
 }
