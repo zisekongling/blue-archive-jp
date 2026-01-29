@@ -1,129 +1,79 @@
 {
-  "crawl_time": "2026-01-28T10:04:16+08:00",
+  "crawl_time": "2026-01-29T10:26:13+08:00",
   "pools": [
     {
       "title": "星野(临战)",
       "description": "星野(临战)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/146959.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "FES限定",
         "复刻"
       ],
-      "progress": "23小时56分钟后开始UP",
-      "start_time": "2026-01-29T09:00:00+08:00+08:00",
-      "end_time": null
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
     {
       "title": "白子*恐怖",
       "description": "白子*恐怖",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/613239.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "FES限定",
         "复刻"
       ],
-      "progress": "23小时56分钟后开始UP",
-      "start_time": "2026-01-29T09:00:00+08:00+08:00",
-      "end_time": null
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
     {
       "title": "爱丽丝(临战)",
       "description": "爱丽丝(临战)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/941660.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "FES限定"
       ],
-      "progress": "23小时56分钟后开始UP",
-      "start_time": "2026-01-29T09:00:00+08:00+08:00",
-      "end_time": null
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
     {
       "title": "柯伊",
       "description": "柯伊",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/327574.png",
-      "status": "将开始",
+      "status": "进行中",
       "tags": [
         "FES限定"
       ],
-      "progress": "23小时56分钟后开始UP",
-      "start_time": "2026-01-29T09:00:00+08:00+08:00",
-      "end_time": null
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
     {
       "title": "日鞠(临战)",
       "description": "日鞠(临战)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/191981/2026/0/20/39714.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下23小时55分钟",
+      "progress": "已经有26分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-29T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "莉音(临战)",
       "description": "莉音(临战)",
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/191981/2026/0/20/791673.png",
-      "status": "进行中",
+      "status": "已结束",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下23小时55分钟",
+      "progress": "已经有26分钟未UP",
       "start_time": null,
-      "end_time": "2026-01-29T09:00:00+08:00+08:00"
-    },
-    {
-      "title": "丽情",
-      "description": "丽情",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/5/810627.png",
-      "status": "已结束",
-      "tags": [
-        "复刻"
-      ],
-      "progress": "已经有8天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-20T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "妃咲",
-      "description": "妃咲",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/5/424275.png",
-      "status": "已结束",
-      "tags": [
-        "复刻"
-      ],
-      "progress": "已经有8天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-20T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "优香(体操服)",
-      "description": "优香(体操服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/6/750925.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有8天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-20T10:00:00+08:00+08:00"
-    },
-    {
-      "title": "玛丽(体操服)",
-      "description": "玛丽(体操服)",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_266/h_300/829/399789/2026/0/6/162190.png",
-      "status": "已结束",
-      "tags": [
-        "限定",
-        "复刻"
-      ],
-      "progress": "已经有8天0小时未UP",
-      "start_time": null,
-      "end_time": "2026-01-20T10:00:00+08:00+08:00"
+      "end_time": null
     }
   ]
 }
