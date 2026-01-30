@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-01-29T10:26:13+08:00",
+  "crawl_time": "2026-01-30T10:26:09+08:00",
   "pools": [
     {
       "title": "星野(临战)",
@@ -10,7 +10,7 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -23,7 +23,7 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -35,7 +35,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -47,7 +47,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "UP还剩下6天23小时",
+      "progress": "UP还剩下5天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -59,9 +59,9 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-01-29T10:00:00+08:00+08:00"
     },
     {
       "title": "莉音(临战)",
@@ -71,9 +71,9 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-01-29T10:00:00+08:00+08:00"
     }
   ]
 }
