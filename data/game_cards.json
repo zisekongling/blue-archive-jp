@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-01-31T10:21:38+08:00",
+  "crawl_time": "2026-02-01T10:45:33+08:00",
   "pools": [
     {
       "title": "星野(临战)",
@@ -10,7 +10,7 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下3天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -23,7 +23,7 @@
         "FES限定",
         "复刻"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下3天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -35,7 +35,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下3天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -47,7 +47,7 @@
       "tags": [
         "FES限定"
       ],
-      "progress": "UP还剩下4天23小时",
+      "progress": "UP还剩下3天23小时",
       "start_time": null,
       "end_time": "2026-02-05T09:00:00+08:00+08:00"
     },
@@ -59,7 +59,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有2天0小时未UP",
+      "progress": "已经有3天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-29T10:00:00+08:00+08:00"
     },
@@ -71,7 +71,7 @@
       "tags": [
         "限定"
       ],
-      "progress": "已经有2天0小时未UP",
+      "progress": "已经有3天0小时未UP",
       "start_time": null,
       "end_time": "2026-01-29T10:00:00+08:00+08:00"
     }
