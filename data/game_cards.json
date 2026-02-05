@@ -1,4 +1,103 @@
 {
-  "crawl_time": "2026-02-04T10:28:48+08:00",
-  "pools": []
+  "crawl_time": "2026-02-05T10:28:29+08:00",
+  "pools": [
+    {
+      "title": "艾米(泳装)",
+      "description": "艾米(泳装)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/191981/2026/1/1/655520.png",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-12T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "霞",
+      "description": "霞",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/191981/2026/1/1/943935.png",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-12T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "一花",
+      "description": "一花",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/191981/2026/1/1/294866.png",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-12T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "樱子",
+      "description": "樱子",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/191981/2026/1/1/809568.png",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下6天23小时",
+      "start_time": null,
+      "end_time": "2026-02-12T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "星野(临战)",
+      "description": "星野(临战)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/146959.png",
+      "status": "已结束",
+      "tags": [
+        "FES限定",
+        "复刻"
+      ],
+      "progress": "已经有29分钟未UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "白子*恐怖",
+      "description": "白子*恐怖",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/613239.png",
+      "status": "已结束",
+      "tags": [
+        "FES限定",
+        "复刻"
+      ],
+      "progress": "已经有29分钟未UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "爱丽丝(临战)",
+      "description": "爱丽丝(临战)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/941660.png",
+      "status": "已结束",
+      "tags": [
+        "FES限定"
+      ],
+      "progress": "已经有29分钟未UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "柯伊",
+      "description": "柯伊",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/0/27/327574.png",
+      "status": "已结束",
+      "tags": [
+        "FES限定"
+      ],
+      "progress": "已经有29分钟未UP",
+      "start_time": null,
+      "end_time": null
+    }
+  ]
 }
