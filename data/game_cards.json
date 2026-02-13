@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-02-12T10:36:54+08:00",
+  "crawl_time": "2026-02-13T10:38:24+08:00",
   "pools": [
     {
       "title": "艾米（临战）",
@@ -7,7 +7,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_352/829/191981/2026/1/11/481611.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下12天23小时",
+      "progress": "UP还剩下11天23小时",
       "start_time": null,
       "end_time": "2026-02-25T09:00:00+08:00+08:00"
     },
@@ -17,7 +17,7 @@
       "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_336/829/191981/2026/1/11/793178.png",
       "status": "进行中",
       "tags": [],
-      "progress": "UP还剩下12天23小时",
+      "progress": "UP还剩下11天23小时",
       "start_time": null,
       "end_time": "2026-02-25T09:00:00+08:00+08:00"
     },
@@ -29,9 +29,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有37分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-02-12T10:00:00+08:00+08:00"
     },
     {
       "title": "霞",
@@ -41,9 +41,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有37分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-02-12T10:00:00+08:00+08:00"
     },
     {
       "title": "一花",
@@ -53,9 +53,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有37分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-02-12T10:00:00+08:00+08:00"
     },
     {
       "title": "樱子",
@@ -65,9 +65,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有37分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-02-12T10:00:00+08:00+08:00"
     }
   ]
 }
