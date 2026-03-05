@@ -1,5 +1,5 @@
 {
-  "crawl_time": "2026-03-04T10:25:49+08:00",
+  "crawl_time": "2026-03-05T10:28:37+08:00",
   "pools": [
     {
       "title": "晴奈(正月)",
@@ -10,7 +10,7 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下13天23小时",
+      "progress": "UP还剩下12天23小时",
       "start_time": null,
       "end_time": "2026-03-18T09:00:00+08:00+08:00"
     },
@@ -23,7 +23,43 @@
         "限定",
         "复刻"
       ],
-      "progress": "UP还剩下13天23小时",
+      "progress": "UP还剩下12天23小时",
+      "start_time": null,
+      "end_time": "2026-03-18T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "优香(睡衣)",
+      "description": "优香(睡衣)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/2/4/937373.webp",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下12天23小时",
+      "start_time": null,
+      "end_time": "2026-03-18T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "诺亚(睡衣)",
+      "description": "诺亚(睡衣)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/399789/2026/2/4/598995.webp",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下12天23小时",
+      "start_time": null,
+      "end_time": "2026-03-18T09:00:00+08:00+08:00"
+    },
+    {
+      "title": "小雪(睡衣)",
+      "description": "小雪(睡衣)",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/4/918793.png",
+      "status": "进行中",
+      "tags": [
+        "复刻"
+      ],
+      "progress": "UP还剩下12天23小时",
       "start_time": null,
       "end_time": "2026-03-18T09:00:00+08:00+08:00"
     },
@@ -35,9 +71,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-04T10:00:00+08:00+08:00"
     },
     {
       "title": "绿(女仆)",
@@ -47,9 +83,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-04T10:00:00+08:00+08:00"
     },
     {
       "title": "爱丽丝(女仆)",
@@ -59,9 +95,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-04T10:00:00+08:00+08:00"
     },
     {
       "title": "佳代子(正月)",
@@ -72,9 +108,9 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有26分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-04T10:00:00+08:00+08:00"
     }
   ]
 }
