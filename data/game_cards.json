@@ -1,25 +1,25 @@
 {
-  "crawl_time": "2026-03-18T10:35:50+08:00",
+  "crawl_time": "2026-03-19T10:36:45+08:00",
   "pools": [
     {
       "title": "木乃香",
       "description": "木乃香",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_97/h_103/829/492704/2026/2/17/902105.png",
-      "status": "将开始",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/18/200294.png",
+      "status": "进行中",
       "tags": [],
-      "progress": "24分钟后开始UP",
+      "progress": "UP还剩下13天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-01T10:00:00+08:00+08:00"
     },
     {
       "title": "蕾娜",
       "description": "蕾娜",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_189/h_234/829/492704/2026/2/17/535371.png",
-      "status": "将开始",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/18/850367.png",
+      "status": "进行中",
       "tags": [],
-      "progress": "24分钟后开始UP",
+      "progress": "UP还剩下13天0小时",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-01T10:00:00+08:00+08:00"
     },
     {
       "title": "晴奈(正月)",
@@ -30,9 +30,9 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有36分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-18T10:00:00+08:00+08:00"
     },
     {
       "title": "枫香(正月)",
@@ -43,9 +43,9 @@
         "限定",
         "复刻"
       ],
-      "progress": "已经有36分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-18T10:00:00+08:00+08:00"
     },
     {
       "title": "优香(睡衣)",
@@ -55,9 +55,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有36分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-18T10:00:00+08:00+08:00"
     },
     {
       "title": "诺亚(睡衣)",
@@ -67,9 +67,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有36分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-18T10:00:00+08:00+08:00"
     },
     {
       "title": "小雪(睡衣)",
@@ -79,9 +79,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有36分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-03-18T10:00:00+08:00+08:00"
     }
   ]
 }
