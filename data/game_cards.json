@@ -1,4 +1,69 @@
 {
-  "crawl_time": "2026-04-04T10:37:30+08:00",
-  "pools": []
+  "crawl_time": "2026-04-05T10:50:22+08:00",
+  "pools": [
+    {
+      "title": "朱音(制服)",
+      "description": "C&C，千年",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/3/1/220399.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下10天0小时",
+      "start_time": null,
+      "end_time": "2026-04-15T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "圣娅",
+      "description": "茶话会，三一",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/31/766027.png",
+      "status": "进行中",
+      "tags": [
+        "限定"
+      ],
+      "progress": "UP还剩下10天0小时",
+      "start_time": null,
+      "end_time": "2026-04-15T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "明日奈(制服)",
+      "description": "C&C，千年",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/31/211093.png",
+      "status": "进行中",
+      "tags": [
+        "限定"
+      ],
+      "progress": "UP还剩下10天0小时",
+      "start_time": null,
+      "end_time": "2026-04-15T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "时(兔女郎)",
+      "description": "C&C，千年",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/31/274193.png",
+      "status": "进行中",
+      "tags": [],
+      "progress": "UP还剩下10天0小时",
+      "start_time": null,
+      "end_time": "2026-04-15T10:00:00+08:00+08:00"
+    },
+    {
+      "title": "木乃香",
+      "description": "木乃香",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/18/200294.png",
+      "status": "已结束",
+      "tags": [],
+      "progress": "已经有3天23小时未UP",
+      "start_time": null,
+      "end_time": "2026-04-01T11:00:00+08:00+08:00"
+    },
+    {
+      "title": "蕾娜",
+      "description": "蕾娜",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/2/18/850367.png",
+      "status": "已结束",
+      "tags": [],
+      "progress": "已经有3天23小时未UP",
+      "start_time": null,
+      "end_time": "2026-04-01T11:00:00+08:00+08:00"
+    }
+  ]
 }
