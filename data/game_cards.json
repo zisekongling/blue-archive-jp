@@ -1,27 +1,27 @@
 {
-  "crawl_time": "2026-04-21T10:54:47+08:00",
+  "crawl_time": "2026-04-22T10:53:31+08:00",
   "pools": [
     {
       "title": "妮可",
       "description": "FOX小队，SRT，仁子",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_340/829/492704/2026/3/20/319927.webp?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/3/21/27957.png?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
       "status": "进行中",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下14天23小时",
+      "progress": "UP还剩下13天23小时",
       "start_time": null,
       "end_time": "2026-05-06T09:00:00+08:00+08:00"
     },
     {
       "title": "胡桃",
       "description": "FOX小队，SRT",
-      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_300/h_338/829/492704/2026/3/20/368731.webp?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_404/h_456/829/492704/2026/3/21/873801.png?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
       "status": "进行中",
       "tags": [
         "限定"
       ],
-      "progress": "UP还剩下14天23小时",
+      "progress": "UP还剩下13天23小时",
       "start_time": null,
       "end_time": "2026-05-06T09:00:00+08:00+08:00"
     },
@@ -33,9 +33,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有54分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-21T10:00:00+08:00+08:00"
     },
     {
       "title": "真纪(露营)",
@@ -45,9 +45,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有54分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-21T10:00:00+08:00+08:00"
     },
     {
       "title": "晴(露营)",
@@ -57,9 +57,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有54分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-21T10:00:00+08:00+08:00"
     },
     {
       "title": "小玉(露营)",
@@ -69,9 +69,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "已经有54分钟未UP",
+      "progress": "已经有1天0小时未UP",
       "start_time": null,
-      "end_time": null
+      "end_time": "2026-04-21T10:00:00+08:00+08:00"
     }
   ]
 }
