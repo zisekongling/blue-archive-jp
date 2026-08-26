@@ -1,6 +1,26 @@
 {
-  "crawl_time": "2026-08-25T09:24:35+08:00",
+  "crawl_time": "2026-08-26T09:28:04+08:00",
   "pools": [
+    {
+      "title": "心",
+      "description": "潜水部，奥德赛",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50580/images/w_300/h_300/492704/2026/7/25/95816316mt8a78xc.webp?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
+      "status": "将开始",
+      "tags": [],
+      "progress": "32分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
+    {
+      "title": "琴音",
+      "description": "潜水部，奥德赛",
+      "image_url": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50580/images/w_300/h_300/492704/2026/7/25/73023084mt8a824d.webp?x-image-process=image/format,webp/ignore-error,1&eo-img.format=webp",
+      "status": "将开始",
+      "tags": [],
+      "progress": "32分钟后开始UP",
+      "start_time": null,
+      "end_time": null
+    },
     {
       "title": "濑名(私服)",
       "description": "急救部，格黑娜",
@@ -9,9 +29,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下32分钟",
       "start_time": null,
-      "end_time": "2026-08-26T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "朱莉(打工)",
@@ -21,9 +41,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下32分钟",
       "start_time": null,
-      "end_time": "2026-08-26T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "名草",
@@ -33,9 +53,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下32分钟",
       "start_time": null,
-      "end_time": "2026-08-26T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "妮娅",
@@ -45,9 +65,9 @@
       "tags": [
         "复刻"
       ],
-      "progress": "UP还剩下1天0小时",
+      "progress": "UP还剩下32分钟",
       "start_time": null,
-      "end_time": "2026-08-26T09:00:00+08:00+08:00"
+      "end_time": null
     },
     {
       "title": "伊吕波(泳装)",
@@ -58,7 +78,7 @@
         "限定",
         "FES"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2026-08-12T10:00:00+08:00+08:00"
     },
@@ -71,7 +91,7 @@
         "限定",
         "FES"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2026-08-12T10:00:00+08:00+08:00"
     },
@@ -85,7 +105,7 @@
         "FES",
         "复刻"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2026-08-12T10:00:00+08:00+08:00"
     },
@@ -99,7 +119,7 @@
         "FES",
         "复刻"
       ],
-      "progress": "已经有12天23小时未UP",
+      "progress": "已经有13天23小时未UP",
       "start_time": null,
       "end_time": "2026-08-12T10:00:00+08:00+08:00"
     }
